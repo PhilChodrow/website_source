@@ -5,7 +5,7 @@ abstract = ""
 abstract_short = ""
 event = "Growth Lab Seminar"
 event_url = ""
-location = "Cambridge, MA"
+location = "Harvard Kennedy School, Cambridge, MA"
 
 selected = true
 math = true
