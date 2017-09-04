@@ -3,6 +3,12 @@ title = "Student Testimonials"
 date = 2017-08-24
 +++
 
+## Introduction to Data Science in R, Fall 2017
+
+- *Super well organized and engaging.* ***Best R session I have ever had.***
+- *Loved the instructor! Very energetic and clear in his instructions. It was a pleasure learning with him, wish my past professors were like him!*
+- *Phil did a great job teaching the class. I loved the pace - not too fast, not too slow.* ***I feel confident in R going forward now.***
+
 ## 1.204R, Spring 2017
 
 - *Great to discuss theory, some math, and how they apply to the paper at hand. Excellent use of an hour!* ***Probably the best recitation I've been to at MIT in 3 years.***
