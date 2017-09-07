@@ -6,8 +6,8 @@ date = "2017-08-24"
 image_preview = ""
 math = true
 publication_types = ["2"]
-publication = "In submission."
-publication_short = "In submission."
+publication = "Forthcoming in the Proceedings of the National Academy of Sciences"
+publication_short = "Forthcoming in PNAS"
 selected = true
 title = "The Structure of Spatial Segregation"
 url_code = "https://philchodrow.github.io/compx/"
@@ -23,5 +23,3 @@ image = "headers/network_structure_colored.png"
 caption = "My caption :smile:"
 
 +++
-
-More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
