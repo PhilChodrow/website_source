@@ -10,6 +10,8 @@ To read nice things my students have said about me, click [here](/teaching_testi
 
 ## 2017
 
+- **Instructor**, Fall 2017: Introduction to Data Science in `R`. I led a session in which we go from zero to BI dashboards in three hours for incoming Master of Business Analytics Students. Materials [here](https://philchodrow.github.io/mban_orientation/data_science_intro/index.html). 
+- **Invited Seminar Leader**, Summer 2017: Information Theory in Network Science at Northeastern's Network Science Institute. Lecture notes available on [arXiv](https://arxiv.org/abs/1708.07459).
 - **Teaching Assistant**: MIT Course 1.204, "Computer Modeling: From Individual Mobility to Networks." I lead a weekly recitation focusing on mathematical and statistical methods used in contemporary research in human behavior, complex systems, and city science. 
 - **Organizer:** "Computation in Optimization and Statistics." A four-week, advanced course on computational tools in applied mathematics, statistics, operations research, and computational engineering, offered by and for practicing researchers. All materials from the 2017 edition are available [here](https://philchodrow.github.io/cos_2017/).
 - **Instructor:** "Advanced Topics in Data Science." A three-hour integrative session on navigating the circle of data science using functional programming in `R`. [Slides](https://philchodrow.github.io/cos_2017/4_advanced_topics/slides.html), a [case study](https://philchodrow.github.io/cos_2017/4_advanced_topics/notes.html), and [source code](https://github.com/PhilChodrow/cos_2017/tree/master/4_advanced_topics) are all available. 

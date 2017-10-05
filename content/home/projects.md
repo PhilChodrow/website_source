@@ -38,5 +38,21 @@ view = 1
   name = "software"
   tag = ".software"
 
+[[filter]]
+  name = "cities"
+  tag = ".cities"
+
+[[filter]]
+  name = "networks"
+  tag = ".networks"
+
+[[filter]]
+  name = "theory"
+  tag = ".theory"
+
+[[filter]]
+  name = "modeling"
+  tag = ".modeling"
+
 +++
 

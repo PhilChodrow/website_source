@@ -16,8 +16,7 @@ weight = 3
 
 ## Current and Upcoming
 
+- **Organizer**, Winter 2018: 15.S60, "Computing in Optimization and Statistics." I organize and teach by-researchers-for-researchers sessions on computational tools for contemporary data science. 
 - **Teaching Assistant**, Fall 2017: MIT Course 6.041, Introduction to Probability. I lead problem-solving tutorials, hold office hours, and assist in material preparation for an undergraduate and graduate level introduction to probabilistic modeling. 
-- **Instructor**, Fall 2017: Introduction to Data Science in `R`. I led a session in which we go from zero to BI dashboards in three hours for incoming Master of Business Analytics Students. Materials [here](https://philchodrow.github.io/mban_orientation/data_science_intro/index.html). 
-- **Invited Seminar Leader**, Summer 2017: Information Theory in Network Science at Northeastern's Network Science Institute. Lecture notes available on [arXiv](https://arxiv.org/abs/1708.07459).
 
 You can also read [nice things](/teaching_testimonials) my students have said about me, or view my [complete teaching history](/teaching). 

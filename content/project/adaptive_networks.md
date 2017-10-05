@@ -1,0 +1,30 @@
++++
+# Date this page was created.
+date = "2017-10-05"
+
+# Project title.
+title = "Network Community Dynamics"
+
+# Project summary to display on homepage.
+summary = "A coevolutionary model of community structure in social networks. With [Peter J. Mucha](http://mucha.web.unc.edu/)."
+
+# Optional image to display on homepage (relative to `static/img/` folder).
+image_preview = "AVM_sample.png"
+
+# Tags: can be used for filtering projects.
+# Example: `tags = ["machine-learning", "deep-learning"]`
+tags = ["networks", "modeling", "theory"]
+
+# Optional external URL for project (replaces project detail page).
+external_link = ""
+
+# Does the project detail page use math formatting?
+math = false
+
+# Optional featured image (relative to `static/img/` folder).
+[header]
+image = "headers/PA.png"
+caption = "Pair approximation to equilibrium community structure."
+
++++
+Joint work with [Peter J. Mucha](http://mucha.web.unc.edu/).
