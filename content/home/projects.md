@@ -24,27 +24,14 @@ view = 1
 [[filter]]
   name = "All"
   tag = "*"
-  
-[[filter]]
-  name = "information theory"
-  tag = ".information-theory"
-
-[[filter]]
-  name = "spatial"
-  tag = ".spatial"
-
-
-[[filter]]
-  name = "software"
-  tag = ".software"
-
-[[filter]]
-  name = "cities"
-  tag = ".cities"
 
 [[filter]]
   name = "networks"
   tag = ".networks"
+
+[[filter]]
+  name = "cities"
+  tag = ".cities"
 
 [[filter]]
   name = "theory"
@@ -53,6 +40,14 @@ view = 1
 [[filter]]
   name = "modeling"
   tag = ".modeling"
+  
+[[filter]]
+  name = "spatial"
+  tag = ".spatial"
+
+[[filter]]
+  name = "software"
+  tag = ".software"
 
 +++
 
