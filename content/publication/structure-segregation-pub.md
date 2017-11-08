@@ -6,13 +6,13 @@ date = "2017-08-24"
 image_preview = ""
 math = true
 publication_types = ["2"]
-publication = "Forthcoming in the Proceedings of the National Academy of Sciences"
-publication_short = "Forthcoming in PNAS"
+publication = "Proceedings of the National Academy of Sciences"
+publication_short = "PNAS"
 selected = true
 title = "The Structure of Spatial Segregation"
 url_code = "https://philchodrow.github.io/compx/"
 url_dataset = ""
-url_pdf = ""
+url_pdf = "http://www.pnas.org/content/114/44/11591.abstract"
 url_project = "project/structure-segregation/"
 url_slides = ""
 url_video = ""
@@ -20,6 +20,6 @@ url_video = ""
 # Optional featured image (relative to `static/img/` folder).
 [header]
 image = "headers/network_structure_colored.png"
-caption = "My caption :smile:"
+caption = ""
 
 +++
