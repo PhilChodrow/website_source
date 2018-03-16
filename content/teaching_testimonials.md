@@ -18,12 +18,12 @@ date = 2017-08-24
 - *Phil was exceedingly knowledgeable about the material and enthusiastic about teaching it. His organization skills allowed him to effortlessly communicate a lot of material to the students.* ***Phil is a gifted teacher and I look forward to attending more lectures with him.***
 - *A fantastic introduction to data science.* ***Well-spoken, clear, and engaging.***
 - *Awesome work! you were **super engaging** and made the lecture really fun! The 3 hours flew by in no time :)*
-- ***Phil is so helpful and approachable**. As a new student at MIT, I really appreciate this! *
+- ***Phil is so helpful and approachable.*** *As a new student at MIT, I really appreciate this!*
 
 ## Introduction to Data Science in R (Fall 2017)
 
 - *Super well organized and engaging.* ***Best R session I have ever had.***
-- *Loved the instructor! Very energetic and clear in his instructions. **It was a pleasure learning with him,** wish my past professors were like him!*
+- *Loved the instructor! Very energetic and clear in his instructions.* ***It was a pleasure learning with him,*** *wish my past professors were like him!*
 - *Phil did a great job teaching the class. I loved the pace - not too fast, not too slow.* ***I feel confident in R going forward now.***
 
 ## 1.204: Human Mobility: From Computation to Models (Spring 2017)
