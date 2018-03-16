@@ -9,9 +9,9 @@ date = 2017-08-24
 
 ## 6.041/6.341: Introduction to Probability (Fall 2017)
 
-- *Model TA. Responsive, engaging, tried multiple approaches to explain when it wasn't sticking. Clear, direct and helpful. **Wish every TA was like him.***
+- *Model TA. Responsive, engaging, tried multiple approaches to explain when it wasn't sticking. Clear, direct and helpful.* ***Wish every TA was like him.***
 - ***Super helpful!***
-- *The approach you took changed my mind from "I don't know what to do" to **"ok, I think there should be a way to solve it"***
+- *The approach you took changed my mind from "I don't know what to do" to* ***"ok, I think there should be a way to solve it"***
 
 ## Advanced Topics in Data Science (Winter 2017, 2018)
 
