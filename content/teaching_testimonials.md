@@ -3,6 +3,10 @@ title = "Student Testimonials"
 date = 2017-08-24
 +++
 
+## 6.268: Network Science and Models (Spring, 2018)
+
+- *Phil, You are the best TA ever. Please keep it up!!*
+
 ## 6.041/6.341: Introduction to Probability (Fall 2017)
 
 - *Model TA. Responsive, engaging, tried multiple approaches to explain when it wasn't sticking. Clear, direct and helpful. **Wish every TA was like him.***
@@ -19,7 +23,7 @@ date = 2017-08-24
 ## Introduction to Data Science in R (Fall 2017)
 
 - *Super well organized and engaging.* ***Best R session I have ever had.***
-- *Loved the instructor! Very energetic and clear in his instructions. It was a pleasure learning with him, wish my past professors were like him!*
+- *Loved the instructor! Very energetic and clear in his instructions. **It was a pleasure learning with him,** wish my past professors were like him!*
 - *Phil did a great job teaching the class. I loved the pace - not too fast, not too slow.* ***I feel confident in R going forward now.***
 
 ## 1.204: Human Mobility: From Computation to Models (Spring 2017)
