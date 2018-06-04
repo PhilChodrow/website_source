@@ -1,11 +1,13 @@
 +++
 title = "Student Testimonials"
-date = 2017-08-24
+date = 2018-05-30
 +++
 
 ## 6.268: Network Science and Models (Spring, 2018)
 
 - *Phil, You are the best TA ever. Please keep it up!!*
+- *Super engaging, a lot of enthusiasm!*
+- *He made the class so much fun!*
 
 ## 6.041/6.341: Introduction to Probability (Fall 2017)
 

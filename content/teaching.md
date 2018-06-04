@@ -4,13 +4,13 @@ date = 2017-08-24
 +++
 
 
-I love sharing mathematics and data science with motivated students, in academia, in industry, and in the nonprofit sector. My recent activities have included courses at MIT, workshops for researchers, and trainings for nonprofit data analysts. 
+I love sharing mathematics and data science with motivated students, in academia, in industry, and in the nonprofit sector. My recent activities have included courses at MIT, workshops for researchers, and trainings for nonprofit data analysts. In 2018, I was nominated by Operations Research Center for MIT's Goodwin Award recognizing excellence in teaching. 
 
 To read nice things my students have said about me, click [here](/teaching_testimonials). 
 
 # 2018
 
-- **Head Teaching Assistant:** 6.268, Network Science and Models. I develop course materials, lead recitations, and hold office hours for a graduate-level course in network science. 
+- **Head Teaching Assistant:** 6.268, Network Science and Models. I develop course materials, lead recitations, and hold office hours for a multidisciplinary graduate-level course on network science, including random graph models, algorithms, and analysis. 
 - **Organizer:** "Computing in Optimization and Statistics." A four-week, advanced course on computational tools in applied mathematics, statistics, operations research, and computational engineering, offered by and for practicing researchers. All materials from the 2017 edition are available [here](https://philchodrow.github.io/cos_2018/).
 - **Instructor**, Winter 2018: "Advanced Topics in Data Science." I led a session for students at MIT's Master of Business Analytics program on  navigating the circle of data science using functional programming in `R`. [Slides](https://philchodrow.github.io/cos_2018/4_advanced_topics/slides.html), a [case study](https://philchodrow.github.io/cos_2018/4_advanced_topics/notes.html), and [source code](https://github.com/PhilChodrow/cos_2018/tree/master/4_advanced_topics) are all available. 
 

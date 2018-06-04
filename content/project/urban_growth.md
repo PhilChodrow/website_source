@@ -9,7 +9,7 @@ title = "Multiscale Urban Growth"
 summary = "A simple model of urban growth on distinct agglomeration scales. With [Ema Strano](https://scholar.google.com/citations?user=HsubcWgAAAAJ&hl=en), [Adrian Albert](https://web.stanford.edu/~adalbert/), and [Marta C. Gonzalez](https://scholar.google.com/citations?user=YAGjro8AAAAJ&hl=en)."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "HCM_growth_rate.png"
+image_preview = "CAI_2010_rate_no_guide.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`

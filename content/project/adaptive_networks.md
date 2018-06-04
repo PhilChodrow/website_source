@@ -9,7 +9,7 @@ title = "Network Community Dynamics"
 summary = "A coevolutionary model of community structure in social networks. With [Peter J. Mucha](http://mucha.web.unc.edu/)."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "AVM_sample.png"
+image_preview = "network_sample.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
@@ -23,8 +23,8 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "headers/PA.png"
-caption = "Pair approximation to equilibrium community structure."
+image = ""
+caption = ""
 
 +++
 Joint work with [Peter J. Mucha](http://mucha.web.unc.edu/).
