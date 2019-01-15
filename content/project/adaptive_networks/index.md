@@ -6,7 +6,7 @@ date = "2017-10-05"
 title = "Network Community Dynamics"
 
 # Project summary to display on homepage.
-summary = "A coevolutionary model of community structure in social networks. With [Peter J. Mucha](http://mucha.web.unc.edu/)."
+summary = "With [Peter J. Mucha](http://mucha.web.unc.edu/)."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "network_sample.png"

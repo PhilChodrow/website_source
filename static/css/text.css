@@ -1,9 +1,19 @@
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed" rel="stylesheet">
+
+
 html {
-  font-family: 'Lato', sans-serif;
+  /*font-family: 'Lato', sans-serif;*/
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
   font-size: 18px;
   color: rgba(0,0,0,0.8);
   line-height: 1.65;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+
 @media screen and (min-width: 58em) {
   html {
     font-size: 18px;
@@ -35,8 +45,6 @@ div.three {
   padding: 0;
   /*display: inline-block;*/
 }
-
-
 
 .home-section {
   background-color: rgb(255, 255, 255);

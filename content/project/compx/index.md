@@ -6,7 +6,7 @@ date = "2016-04-27"
 title = "compx"
 
 # Project summary to display on homepage.
-summary = "Code for analyzing segregation with information theory and machine learning."
+summary = "Analyze segregation with information theory and machine learning."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "spatial_trace_Philadelphia.jpg"

@@ -6,7 +6,7 @@ date = "2017-08-05"
 title = "Multiscale Urban Growth"
 
 # Project summary to display on homepage.
-summary = "A simple model of urban growth on distinct agglomeration scales. With [Ema Strano](https://scholar.google.com/citations?user=HsubcWgAAAAJ&hl=en), [Adrian Albert](https://web.stanford.edu/~adalbert/), and [Marta C. Gonzalez](https://scholar.google.com/citations?user=YAGjro8AAAAJ&hl=en)."
+summary = "With [Ema Strano](https://scholar.google.com/citations?user=HsubcWgAAAAJ&hl=en), [Adrian Albert](https://web.stanford.edu/~adalbert/), and [Marta C. Gonzalez](https://scholar.google.com/citations?user=YAGjro8AAAAJ&hl=en)."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "CAI_2010_rate_no_guide.png"
