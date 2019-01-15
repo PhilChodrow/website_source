@@ -182,7 +182,7 @@ enableGitInfo = false
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  custom_css = []
+  custom_css = ["text.css"]
   custom_js  = []
 
   # Publication types.
@@ -297,7 +297,7 @@ enableGitInfo = false
 
 [[menu.main]]
   name = "Posts"
-  url = "#posts"
+  url = "/post"
   weight = 5
 
 [[menu.main]]
@@ -307,7 +307,7 @@ enableGitInfo = false
 
 [[menu.main]]
   name = "Teaching"
-  url = "#teaching"
+  url = "/teaching"
   weight = 4
 
 [[menu.main]]

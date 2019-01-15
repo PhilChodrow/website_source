@@ -13,9 +13,8 @@ weight = 1
 [interests]
   interests = [
     "Network Science",
-    "Information Theory and Statistics",
-    "Complex Systems",
-    "Science of Cities"
+    "Statistics and Information Theory",
+    "Complex Systems"
   ]
 
 # List your qualifications (such as academic degrees).
