@@ -5,12 +5,12 @@ name = "Ocean"
 light = true
 
 # Primary
-primary = "#821a1a"
+primary = "#660000"
 primary_light = "#aaa2a2"
 primary_dark = "#002984"
 
 # Menu
-menu_primary = "#821a1a" # 500
+menu_primary = "#660000" # 500
 menu_text = "#d3c9c9"
 menu_text_active = "#fff" # A100
 menu_title = "#fff"
