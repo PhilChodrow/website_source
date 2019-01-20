@@ -37,4 +37,4 @@ I am an applied mathematician working on methodological problems that arise in t
 1. Mathematics that *serves the human interest*, by contributing to scientific understandings of interconnection, conflict, and disparity. Learn more about my research [here](#publications). 
 2. Mathematics *communicated humanistically*, in a way that conveys beauty, charm, and power alongside rigor. Learn more about my teaching [here](/#teaching). 
 
-I am a member of  MIT's [Operations Research Center](https://www.mit.edu/~orc/) and the [Laboratory for Information and Decision Systems](https://lids.mit.edu/).  I am supported by the NSF Graduate Research Fellowship. Read my full CV [here](/pdf/cv.pdf).
+I am a member of  MIT's [Operations Research Center](https://www.mit.edu/~orc/) and the [Laboratory for Information and Decision Systems](https://lids.mit.edu/).  I am supported by the NSF Graduate Research Fellowship. Read my full CV [here](https://philchodrow.gitlab.io/cv/cv.pdf).
