@@ -26,7 +26,7 @@ paginate = 10
 disqusShortname = "philchodrow"
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = "UA-92231849-1"
+googleAnalytics = "UA-92231849-2"
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
