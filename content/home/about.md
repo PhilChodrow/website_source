@@ -32,6 +32,7 @@ weight = 1
 
 # About
 
+
 I am an applied mathematician working on methodological problems that arise in the scientific study of complex social systems. My interests include network inference; dynamics on networks; applied information theory; and spatial data science. 
 
 I am a member of  MIT's [Operations Research Center](https://www.mit.edu/~orc/) and the [Laboratory for Information and Decision Systems](https://lids.mit.edu/).  I am supported by the NSF Graduate Research Fellowship. Read my full CV [here](https://philchodrow.gitlab.io/cv/cv.pdf).
