@@ -53,7 +53,7 @@ enableGitInfo = false
 
   # Your details.
   name = "Phil Chodrow"
-  role = "Applied math, data science, and teaching at MIT"
+  role = "Applied math and data science @MIT"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -131,7 +131,7 @@ enableGitInfo = false
   time_format = "3:04 PM"
 
   # Show estimated reading time for posts?
-  reading_time = true
+  reading_time = false
 
   # Display comment count? Requires commenting to be enabled.
   comment_count = true
@@ -199,7 +199,8 @@ enableGitInfo = false
     'Manuscript',  # 3
     'Report',  # 4
     'Book',  # 5
-    'Book section'  # 6
+    'Book section',  # 6
+    'Preprint' #7
   ]
 
   # Configuration of talk pages.

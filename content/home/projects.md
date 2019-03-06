@@ -1,4 +1,4 @@
-+++
+<!-- +++
 # Projects widget.
 # This widget displays all projects from `content/project/`.
 
@@ -24,3 +24,4 @@ view = 1
 
 +++
 
+ -->

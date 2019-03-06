@@ -35,7 +35,8 @@ list_format = 4
 #  4: Technical report
 #  5: Book
 #  6: Book chapter
-publication_type = "0"
+#  7: Preprint
+publication_type = "-1"
 
 
 +++
