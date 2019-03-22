@@ -18,7 +18,7 @@ url_video = ""
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "email-Enron-full-intersection.png"
+image = ""
 caption = ""
 
 +++
