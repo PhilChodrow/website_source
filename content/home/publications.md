@@ -13,7 +13,7 @@ widget = "publications"
 weight = 1
 
 # Number of publications to list.
-count = 2
+count = 4
 
 # Show publication details (such as abstract)? (true/false)
 detailed_list = false
