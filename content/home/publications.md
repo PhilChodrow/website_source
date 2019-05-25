@@ -24,7 +24,7 @@ detailed_list = false
 #   2 = APA
 #   3 = MLA
 #   4 = Stream
-list_format = 4
+list_format = 0
 
 # Filter by publication type.
 # -1: Any
@@ -36,7 +36,7 @@ list_format = 4
 #  5: Book
 #  6: Book chapter
 #  7: Preprint
-publication_type = "-1"
+publication_type = "2"
 
 
 +++

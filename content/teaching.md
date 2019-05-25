@@ -8,6 +8,11 @@ I love sharing mathematics and data science with motivated students, in academia
 
 To read nice things my students have said about me, click [here](/teaching_testimonials). 
 
+# 2019
+
+- **Organizer**, 15.S60, "Computing in Optimization and Statistics" (Winter 2017-present). I organize and teach by-researchers-for-researchers sessions on computational tools for contemporary data science. 
+- **Instructor**, Data Science in `R`, 2018-present. I develop curriculum and lead classes for undergraduates and master's students on computational tools for contemporary data science. 
+
 # 2018
 
 - **Head Teaching Assistant:** 6.268, Network Science and Models. I develop course materials, lead recitations, and hold office hours for a multidisciplinary graduate-level course on network science, including random graph models, algorithms, and analysis. 
