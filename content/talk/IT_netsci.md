@@ -4,7 +4,7 @@ date = "2019-05-26T15:10:00"
 title = "Divergence, Entropy, Information: An Opinionated Introduction to Information Theory"
 abstract = "A rapid introduction to information theory, with emphasis on the basic mathematics. The goal is to build up the tools necessary to introduce the mutual information as a measure of learning."
 abstract_short = ""
-event = "Conference on Network Science"
+event = "Tutorial, Conference on Network Science"
 event_url = "https://www.networkscienceinstitute.org/syns"
 location = "Burlington, VT"
 
