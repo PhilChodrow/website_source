@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title>Divergence, Entropy, Information</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="slides_files/reveal.js-3.3.0.1/css/reveal.css"/>
+
+
+
+<link rel="stylesheet" href="slides_files/reveal.js-3.3.0.1/css/theme/simple.css" id="theme">
+
+
+  <!-- some tweaks to reveal css -->
+  <style type="text/css">
+    .reveal h1 { font-size: 2.0em; }
+    .reveal h2 { font-size: 1.5em;  }
+    .reveal h3 { font-size: 1.25em;	}
+    .reveal h4 { font-size: 1em;	}
+
+    .reveal .slides>section,
+    .reveal .slides>section>section {
+      padding: 0px 0px;
+    }
+
+
+
+    .reveal table {
+      border-width: 1px;
+      border-spacing: 2px;
+      border-style: dotted;
+      border-color: gray;
+      border-collapse: collapse;
+      font-size: 0.7em;
+    }
+
+    .reveal table th {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      font-weight: bold;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+    .reveal table td {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+
+  </style>
+
+    <style type="text/css">code{white-space: pre;}</style>
+
+    <link rel="stylesheet" href="slides.css"/>
+
+<!-- Printing and PDF exports -->
+<script id="paper-css" type="application/dynamic-css">
+
+/* Default Print Stylesheet Template
+   by Rob Glazebrook of CSSnewbie.com
+   Last Updated: June 4, 2008
+
+   Feel free (nay, compelled) to edit, append, and
+   manipulate this file as you see fit. */
+
+
+@media print {
+
+	/* SECTION 1: Set default width, margin, float, and
+	   background. This prevents elements from extending
+	   beyond the edge of the printed page, and prevents
+	   unnecessary background images from printing */
+	html {
+		background: #fff;
+		width: auto;
+		height: auto;
+		overflow: visible;
+	}
+	body {
+		background: #fff;
+		font-size: 20pt;
+		width: auto;
+		height: auto;
+		border: 0;
+		margin: 0 5%;
+		padding: 0;
+		overflow: visible;
+		float: none !important;
+	}
+
+	/* SECTION 2: Remove any elements not needed in print.
+	   This would include navigation, ads, sidebars, etc. */
+	.nestedarrow,
+	.controls,
+	.fork-reveal,
+	.share-reveal,
+	.state-background,
+	.reveal .progress,
+	.reveal .backgrounds {
+		display: none !important;
+	}
+
+	/* SECTION 3: Set body font face, size, and color.
+	   Consider using a serif font for readability. */
+	body, p, td, li, div {
+		font-size: 20pt!important;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		color: #000;
+	}
+
+	/* SECTION 4: Set heading font face, sizes, and color.
+	   Differentiate your headings from your body text.
+	   Perhaps use a large sans-serif for distinction. */
+	h1,h2,h3,h4,h5,h6 {
+		color: #000!important;
+		height: auto;
+		line-height: normal;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		text-shadow: 0 0 0 #000 !important;
+		text-align: left;
+		letter-spacing: normal;
+	}
+	/* Need to reduce the size of the fonts for printing */
+	h1 { font-size: 28pt !important;  }
+	h2 { font-size: 24pt !important; }
+	h3 { font-size: 22pt !important; }
+	h4 { font-size: 22pt !important; font-variant: small-caps; }
+	h5 { font-size: 21pt !important; }
+	h6 { font-size: 20pt !important; font-style: italic; }
+
+	/* SECTION 5: Make hyperlinks more usable.
+	   Ensure links are underlined, and consider appending
+	   the URL to the end of the link for usability. */
+	a:link,
+	a:visited {
+		color: #000 !important;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+	/*
+	.reveal a:link:after,
+	.reveal a:visited:after {
+		content: " (" attr(href) ") ";
+		color: #222 !important;
+		font-size: 90%;
+	}
+	*/
+
+
+	/* SECTION 6: more reveal.js specific additions by @skypanther */
+	ul, ol, div, p {
+		visibility: visible;
+		position: static;
+		width: auto;
+		height: auto;
+		display: block;
+		overflow: visible;
+		margin: 0;
+		text-align: left !important;
+	}
+	.reveal pre,
+	.reveal table {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.reveal pre code {
+		padding: 20px;
+		border: 1px solid #ddd;
+	}
+	.reveal blockquote {
+		margin: 20px 0;
+	}
+	.reveal .slides {
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 0 !important;
+		zoom: 1 !important;
+
+		overflow: visible !important;
+		display: block !important;
+
+		text-align: left !important;
+		-webkit-perspective: none;
+		   -moz-perspective: none;
+		    -ms-perspective: none;
+		        perspective: none;
+
+		-webkit-perspective-origin: 50% 50%;
+		   -moz-perspective-origin: 50% 50%;
+		    -ms-perspective-origin: 50% 50%;
+		        perspective-origin: 50% 50%;
+	}
+	.reveal .slides section {
+		visibility: visible !important;
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+		display: block !important;
+		overflow: visible !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 60px 20px !important;
+		z-index: auto !important;
+
+		opacity: 1 !important;
+
+		page-break-after: always !important;
+
+		-webkit-transform-style: flat !important;
+		   -moz-transform-style: flat !important;
+		    -ms-transform-style: flat !important;
+		        transform-style: flat !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+
+		-webkit-transition: none !important;
+		   -moz-transition: none !important;
+		    -ms-transition: none !important;
+		        transition: none !important;
+	}
+	.reveal .slides section.stack {
+		padding: 0 !important;
+	}
+	.reveal section:last-of-type {
+		page-break-after: avoid !important;
+	}
+	.reveal section .fragment {
+		opacity: 1 !important;
+		visibility: visible !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+	}
+	.reveal section img {
+		display: block;
+		margin: 15px 0px;
+		background: rgba(255,255,255,1);
+		border: 1px solid #666;
+		box-shadow: none;
+	}
+
+	.reveal section small {
+		font-size: 0.8em;
+	}
+
+}  
+</script>
+
+
+<script id="pdf-css" type="application/dynamic-css">
+    
+/**
+ * This stylesheet is used to print reveal.js
+ * presentations to PDF.
+ *
+ * https://github.com/hakimel/reveal.js#pdf-export
+ */
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+
+body {
+	margin: 0 auto !important;
+	border: 0;
+	padding: 0;
+	float: none !important;
+	overflow: visible;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+}
+
+/* Remove any elements not needed in print. */
+.nestedarrow,
+.reveal .controls,
+.reveal .progress,
+.reveal .playback,
+.reveal.overview,
+.fork-reveal,
+.share-reveal,
+.state-background {
+	display: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-shadow: 0 0 0 #000 !important;
+}
+
+.reveal pre code {
+	overflow: hidden !important;
+	font-family: Courier, 'Courier New', monospace !important;
+}
+
+ul, ol, div, p {
+	visibility: visible;
+	position: static;
+	width: auto;
+	height: auto;
+	display: block;
+	overflow: visible;
+	margin: auto;
+}
+.reveal {
+	width: auto !important;
+	height: auto !important;
+	overflow: hidden !important;
+}
+.reveal .slides {
+	position: static;
+	width: 100%;
+	height: auto;
+
+	left: auto;
+	top: auto;
+	margin: 0 !important;
+	padding: 0 !important;
+
+	overflow: visible;
+	display: block;
+
+	-webkit-perspective: none;
+	   -moz-perspective: none;
+	    -ms-perspective: none;
+	        perspective: none;
+
+	-webkit-perspective-origin: 50% 50%; /* there isn't a none/auto value but 50-50 is the default */
+	   -moz-perspective-origin: 50% 50%;
+	    -ms-perspective-origin: 50% 50%;
+	        perspective-origin: 50% 50%;
+}
+
+.reveal .slides section {
+	page-break-after: always !important;
+
+	visibility: visible !important;
+	position: relative !important;
+	display: block !important;
+	position: relative !important;
+
+	margin: 0 !important;
+	padding: 0 !important;
+	box-sizing: border-box !important;
+	min-height: 1px;
+
+	opacity: 1 !important;
+
+	-webkit-transform-style: flat !important;
+	   -moz-transform-style: flat !important;
+	    -ms-transform-style: flat !important;
+	        transform-style: flat !important;
+
+	-webkit-transform: none !important;
+	   -moz-transform: none !important;
+	    -ms-transform: none !important;
+	        transform: none !important;
+}
+
+.reveal section.stack {
+	margin: 0 !important;
+	padding: 0 !important;
+	page-break-after: avoid !important;
+	height: auto !important;
+	min-height: auto !important;
+}
+
+.reveal img {
+	box-shadow: none;
+}
+
+.reveal .roll {
+	overflow: visible;
+	line-height: 1em;
+}
+
+/* Slide backgrounds are placed inside of their slide when exporting to PDF */
+.reveal section .slide-background {
+	display: block !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+/* All elements should be above the slide-background */
+.reveal section>* {
+	position: relative;
+	z-index: 1;
+}
+
+/* Display slide speaker notes when 'showNotes' is enabled */
+.reveal .speaker-notes-pdf {
+	display: block;
+	width: 100%;
+	max-height: none;
+	left: auto;
+	top: auto;
+	z-index: 100;
+}
+
+/* Display slide numbers when 'slideNumber' is enabled */
+.reveal .slide-number-pdf {
+	display: block;
+	position: absolute;
+	font-size: 14px;
+}
+
+</script>
+
+
+<script>
+var style = document.createElement( 'style' );
+style.type = 'text/css';
+var style_script_id = window.location.search.match( /print-pdf/gi ) ? 'pdf-css' : 'paper-css';
+var style_script = document.getElementById(style_script_id).text;
+style.innerHTML = style_script;
+document.getElementsByTagName('head')[0].appendChild(style);
+</script>
+
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+    <h1 class="title">Divergence, Entropy, Information</h1>
+  <h1 class="subtitle">An (Opinionated) Introduction to Information Theory</h1>
+    <h2 class="author"><p>Phil Chodrow, <em>Massachusetts Institute of Technology</em></p></h2>
+    <h3 class="date">May 26th, 2019</h3>
+</section>
+
+<section id="plug" class="slide level2">
+<h2>Plug</h2>
+<p><img src="paper_header.png" width="1000" /></p>
+<p><strong><code>arXiv</code></strong>: 1708.07459</p>
+
+
+</section>
+<section id="pacing-sorry" class="slide level2">
+<h2>Pacing: Sorry</h2>
+<p><img data-src="ludicrous.jpg" /></p>
+</section>
+<section id="what" class="slide level2">
+<h2>What?</h2>
+<p>A mathematical <strong>theory of learning</strong>.</p>
+<ul>
+<li class="fragment">Which phenomena are learnable, and how?</li>
+<li class="fragment">Why do many systems “maximize entropy?”<br />
+</li>
+<li class="fragment">How can we quantify diversity, complexity, and information processing in real systems?</li>
+<li class="fragment"><span style="color:navy">What does it mean for an observation to “give you information” about another?</span></li>
+</ul>
+</section>
+<section id="why" class="slide level2">
+<h2>Why?</h2>
+<p>Extensive applications in:</p>
+<ul>
+<li>Communication <span class="citation" data-cites="Shannon1948">(Shannon 1948)</span></li>
+<li>Statistics and machine learning <span class="citation" data-cites="Csiszzr2004">(Csiszar and Shields 2004)</span></li>
+<li>Statistical physics <span class="citation" data-cites="Jaynes1957">(Jaynes 1957)</span></li>
+<li>Biology <span class="citation" data-cites="Baez2016">(Baez and Pollard 2016)</span></li>
+<li>…</li>
+</ul>
+<div class="fragment">
+<p><span class="math inline">\(^*\)</span><em>Phil is not a communications engineer</em><span class="math inline">\(^{**}\)</span></p>
+</div>
+<div class="fragment">
+<p><span class="math inline">\(^{**}\)</span><em>or machine learner, physicist, or biologist.</em></p>
+</div>
+</section>
+<section id="how" class="slide level2">
+<h2>How?</h2>
+<div class="fragment">
+<p>Logarithms.</p>
+</div>
+</section>
+<section id="running-example" class="slide level2">
+<h2>Running Example</h2>
+<center>
+<img src="cards.png" width="800" />
+</center>
+</section>
+<section id="experimental-setup" class="slide level2">
+<h2>Experimental Setup</h2>
+<ul>
+<li>Have a prior belief <span class="math inline">\(p\)</span>. E.g. on suits, <span class="math inline">\(p = \left(\frac{1}{4},\frac{1}{4},\frac{1}{4},\frac{1}{4}\right)\)</span>.</li>
+<li>Do an experiment (draw some cards)</li>
+<li>Tabulate empirical distribution:</li>
+</ul>
+<p><span class="math display">\[q^n(x) = \frac{1}{n} \sum_{i = 1}^n \mathbb{I}(X_i = x)\;.\]</span></p>
+</section>
+<section id="surprisal" class="slide level2">
+<h2>Surprisal</h2>
+<center>
+<img src="surprise.jpg" height="300" />
+</center>
+<p><strong>Definition</strong>: My <em>surprisal</em> about <span class="math inline">\(q^n\)</span> with prior <span class="math inline">\(p\)</span> is</p>
+<p><span class="math display">\[ \mathcal{S}_n = \log\left(\frac{1}{\mathbb{P}(\text{Observe }q^n | \text{True state is } p )}\right) \]</span></p>
+</section>
+<section id="theorem-law-of-large-numbers" class="slide level2">
+<h2>Theorem (Law of Large Numbers)</h2>
+<p>We have</p>
+<p><span class="math display">\[\lim_{n\rightarrow \infty}\frac{1}{n} \mathcal{S}_n = D[q^n\|p]\;,\]</span></p>
+<p><strong>Interpretation:</strong> <span class="math inline">\(D[q^n\|p]\)</span> is (asymptotically) your average surprisal <em>per experiment</em>.</p>
+<div class="fragment">
+<p>The <strong>Kullback-Leibler Divergence</strong> is:</p>
+<p><span class="math display">\[D[q^n\|p] = \sum_{x \in \mathcal{X}} q^n(x) \log \frac{q^n(x)}{p(x)}\;.\]</span></p>
+</div>
+</section>
+<section id="kl-divergence-as-a-dissimilarity" class="slide level2">
+<h2>KL Divergence as a Dissimilarity</h2>
+<p>Often used to compare probability distributions – high <span class="math inline">\(D[q\|p] \implies\)</span> <span class="math inline">\(p\)</span> and <span class="math inline">\(q\)</span> are very different.</p>
+<ul>
+<li><strong>Gibbs’ Inequality:</strong> <span class="math inline">\(D[q\|p] \geq 0\)</span>, equality iff <span class="math inline">\(p = q\)</span>.</li>
+<li>Not symmetric: <span class="math inline">\(D[p\|q] \neq D[q\|p]\)</span> in general.</li>
+</ul>
+</section>
+<section id="a-prank" class="slide level2">
+<h2>A Prank</h2>
+<ul>
+<li>You ask me to guess the suit of a randomly-drawn card. My belief is <span class="math inline">\(p = \left(\frac{1}{4},\frac{1}{4},\frac{1}{4},\frac{1}{4}\right)\)</span>.</li>
+<li>You have removed all the black cards: true distribution is <span class="math inline">\(q = \left(0,0,\frac{1}{2},\frac{1}{2}\right)\)</span>.</li>
+<li><span class="math inline">\(D[q\|p] = \log 2\)</span>.</li>
+<li>After <span class="math inline">\(100\)</span> draws, my surprisal is approximately <span class="math inline">\(\mathcal{S}_n = 100 \log 2\)</span>, corresponding to a probability of roughly <span class="math inline">\(10^{-30}\)</span>.</li>
+</ul>
+</section>
+<section id="entropy-and-randomness" class="slide level2">
+<h2>Entropy and Randomness</h2>
+<center>
+<img src="im_so_random.png" width="900" />
+</center>
+</section>
+<section id="entropy-and-randomness-1" class="slide level2">
+<h2>Entropy and Randomness</h2>
+<p><strong>Definition</strong>: The <em>entropy</em> of a distribution <span class="math inline">\(p\)</span> is given by</p>
+<p><span class="math display">\[ 
+  H(p) = -\sum_{X \in x} p(x)\log p(x)\;.
+\]</span></p>
+<ul>
+<li><strong>Theorem:</strong> <span class="math display">\[H(p) = - D[p\|u] + \color{navy}{\log \left|\mathcal{X}\right|}\;.\]</span>
+<ul>
+<li><span class="math inline">\(H(p)\)</span> is largest for distributions “close” to uniform.</li>
+</ul></li>
+<li><span class="math inline">\(H(X) = 0\)</span> iff <span class="math inline">\(X\)</span> is deterministic.</li>
+</ul>
+</section>
+<section id="side-information-decreases-entropy" class="slide level2">
+<h2>Side Information Decreases Entropy</h2>
+<p>Uncertainty about <span class="math inline">\(X\)</span> when I reveal the value of <span class="math inline">\(Y\)</span>.</p>
+<p><span class="math display">\[H(X|Y) = -\sum_{x,y} p(x,y) \log p(x|y)\]</span></p>
+<ul>
+<li><strong>Gibbs Inequality:</strong> <span class="math inline">\(H(X) \geq H(X|Y)\)</span>, equality iff <span class="math inline">\(X \perp Y\)</span>.</li>
+<li><em>Side information never increases uncertainty, and is only useless if it is unrelated to (independent of) what you are trying to predict.</em></li>
+</ul>
+</section>
+<section id="example" class="slide level2">
+<h2>Example</h2>
+<ul>
+<li>Let <span class="math inline">\(p\)</span> be uniform on <span class="math inline">\(\mathcal{X} = \{\spadesuit, \clubsuit, \color{firebrick}\diamondsuit, \color{firebrick}\heartsuit\color{black}\}\)</span>. <span class="math inline">\(H(p) = \log 4 = 2\log2\)</span>.</li>
+<li>Tell me the suit color: <span class="math inline">\(p_{X|\color{firebrick}{\text{ red}}} = \left(0,0,\frac{1}{2},\frac{1}{2}\right)\)</span>.</li>
+<li><span class="math inline">\(H(p_{X|\color{firebrick}{\text{ red}}}) = \log 2 &lt; H(p)\)</span>.</li>
+</ul>
+</section>
+<section id="information-and-learning" class="slide level2">
+<h2>Information and Learning</h2>
+<p>Side information reduces uncertainty. By how much?</p>
+<p><strong>Definition</strong>: The <em>mutual information</em> is</p>
+<p><span class="math display">\[I(X,Y) = H(X) - H(X|Y)\;.\]</span></p>
+<p><strong>Intuition:</strong> <em>How much you learn about <span class="math inline">\(X\)</span> when you learn <span class="math inline">\(Y\)</span></em>.</p>
+<p><strong>Important Properties:</strong></p>
+<ul>
+<li><span class="math inline">\(I(X,Y) = I(Y,X)\)</span>.</li>
+<li><strong>Gibbs’ inequality:</strong> <span class="math inline">\(I(X,Y) \geq 0\)</span>.</li>
+<li><span class="math inline">\(I(X,Y) = 0\)</span> iff <span class="math inline">\(X \perp Y\)</span>.</li>
+</ul>
+</section>
+<section id="quick-example" class="slide level2">
+<h2>Quick Example</h2>
+<p><br/> <span class="math display">\[I(\text{suit}, \text{color}) = H(\text{suit}) - H(\text{suit}|\text{color}) = \log 4 - \log 2 = \log 2\]</span></p>
+</section>
+<section id="data-processing-inequality" class="slide level2">
+<h2>Data Processing Inequality</h2>
+<div id="left">
+<p><strong>Theorem:</strong> Let <span class="math inline">\(g\)</span> be any function. Then,</p>
+<p><span class="math display">\[I(X,g(Y)) \leq I(X,Y)\;.\]</span></p>
+<p><em>If you are using <span class="math inline">\(Y\)</span> to predict <span class="math inline">\(X\)</span>, then manipulating (binning, smoothing, feature engineering) your data only decreases your predictive power.</em></p>
+</div>
+<div id="right">
+<p><img src="data.jpeg" width="500" /></p>
+</div>
+</section>
+<section id="data-processing-and-thermodynamics" class="slide level2">
+<h2>Data Processing and Thermodynamics</h2>
+<p><br/></p>
+<ul>
+<li><strong>Data Processing Inequality</strong>: processing degrades signal.</li>
+<li><strong>Second Law of Thermodynamics</strong>: dynamics degrade structure.<span class="math inline">\(^*\)</span></li>
+</ul>
+<p><br/></p>
+<div class="fragment">
+<p><span class="math inline">\(^*\)</span><em>Phil is not a physicist.</em></p>
+</div>
+</section>
+<section id="some-applications" class="slide level2">
+<h2>Some Applications</h2>
+<ul>
+<li class="fragment"><strong>Community detection:</strong> Use Adjusted/Normalized Mutual Information (AMI/NMI) for “ground truth” comparisons. Use InfoMap to find communities via random walk entropies.</li>
+<li class="fragment"><strong>Machine learning</strong>: Use <span class="math inline">\(I(X,Y)\)</span> to perform clustering and identify relevant covariates.</li>
+<li class="fragment"><strong>Dynamical systems</strong>: Use transfer, causation, permutation entropies to measure influence and predictability.</li>
+<li class="fragment"><strong>Network neuroscience</strong>: (talk to Anne, Ari, Chris, Brennan, others)</li>
+</ul>
+</section>
+<section id="it-and-me" class="slide level2">
+<h2>IT and Me</h2>
+<center>
+<img src="PNAS_header.png" width="1000" />
+</center>
+<ul>
+<li>Spatial segregation entrenches disparities in health, education, income, employment…</li>
+<li>Many <strong>measures</strong> of segregation are <span class="math inline">\(I(\text{demographics}, \text{space})\)</span>.</li>
+<li>Use geometry + optimization to study segregation at multiple spatial scales.</li>
+</ul>
+</section>
+<section id="it-and-me-1" class="slide level2">
+<h2>IT and Me</h2>
+<center>
+<img src="PNAS_figure.png" width="1200" />
+</center>
+<div id="left">
+<p><img src="PNAS_theorem.png" width="1000" /> <img src="PNAS_bregman.png" width="1000" /></p>
+</div>
+<div id="right">
+<p><img src="PNAS_mean_densities.png" width="1000" /></p>
+</div>
+</section>
+<section id="information-about-information" class="slide level2">
+<h2>Information About Information</h2>
+<center>
+<img src="paper_header.png" width="800" />
+</center>
+<ul>
+<li><strong><code>arXiv</code></strong>: 1708.07459</li>
+<li><code>philchodrow.com</code></li>
+<li><strong>Plug:</strong> “Configuration Models of Random Hypergraphs” – Inference satellite, 2:30pm tomorrow.</li>
+</ul>
+</section>
+<section id="references" class="slide level2 unnumbered">
+<h2>References</h2>
+<div id="refs" class="references" role="doc-bibliography">
+<div id="ref-Baez2016">
+<p>Baez, John, and Blake Pollard. 2016. “Relative Entropy in Biological Systems.” <em>Entropy</em> 18 (2): 46. <a href="https://doi.org/10.3390/e18020046">https://doi.org/10.3390/e18020046</a>.</p>
+</div>
+<div id="ref-Csiszzr2004">
+<p>Csiszar, Imre, and Paul C Shields. 2004. “Information Theory and Statistics: A Tutorial.” <em>Foundations and Trends™ in Communications and Information Theory</em> 1 (4): 417–528. <a href="https://doi.org/10.1561/0100000004">https://doi.org/10.1561/0100000004</a>.</p>
+</div>
+<div id="ref-Jaynes1957">
+<p>Jaynes, E T. 1957. “Information Theory and Statistical Mechanics.” <em>Physical Review</em> 106 (4): 620—–630.</p>
+</div>
+<div id="ref-Shannon1948">
+<p>Shannon, Claude E. 1948. “A mathematical theory of communication.” <em>The Bell System Technical Journal</em> 27: 379–423. <a href="https://doi.org/10.1145/584091.584093">https://doi.org/10.1145/584091.584093</a>.</p>
+</div>
+</div>
+</section>
+    </div>
+  </div>
+
+  <script src="slides_files/reveal.js-3.3.0.1/lib/js/head.min.js"></script>
+  <script src="slides_files/reveal.js-3.3.0.1/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: false,
+        // Display the page number of the current slide
+        slideNumber: false,
+        // Push each slide change to the browser history
+        history: true,
+        // Vertical centering of slides
+        center: true,
+        // Transition style
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        // Transition style for full page slide backgrounds
+        backgroundTransition: 'default', // none/fade/slide/convex/concave/zoom
+
+
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'slides_files/reveal.js-3.3.0.1/plugin/notes/notes.js', async: true },
+        ]
+      });
+    </script>
+  <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src  = "slides_files/mathjax-local/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
+<script>
+  (function() {
+    if (window.jQuery) {
+      Reveal.addEventListener( 'slidechanged', function(event) {  
+        window.jQuery(event.previousSlide).trigger('hidden');
+        window.jQuery(event.currentSlide).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+
+  </body>
+</html>
