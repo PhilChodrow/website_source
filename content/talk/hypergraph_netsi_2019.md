@@ -13,7 +13,7 @@ math = true
 
 url_pdf = "https://arxiv.org/abs/1902.09302"
 url_slides = "https://www.philchodrow.com/html/hypergraph_short.html"
-url_video = ""
+url_video = "https://www.youtube.com/watch?v=yk5pOXGqIJA"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
