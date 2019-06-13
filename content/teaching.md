@@ -4,7 +4,7 @@ date = 2017-08-24
 +++
 
 
-I love sharing mathematics and data science with motivated students, in academia, in industry, and in the nonprofit sector. My recent activities have included courses at MIT, workshops for researchers, and trainings for nonprofit data analysts. In 2018, I was nominated by Operations Research Center for MIT's Goodwin Award recognizing excellence in teaching. 
+I love sharing mathematics and data science with motivated students, in academia, in industry, and in the nonprofit sector. My recent activities have included courses at MIT, workshops for researchers, and trainings for nonprofit data analysts. In 2018, I was nominated by MIT's Operations Research Center for the Goodwin Award, recognizing excellence in graduate student teaching. 
 
 To read nice things my students have said about me, click [here](/teaching_testimonials). 
 
