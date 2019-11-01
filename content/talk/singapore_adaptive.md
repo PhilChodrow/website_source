@@ -1,6 +1,6 @@
 +++
 date = "2019-10-02T11:45:00"
-title = "   Local Markovian approximations for adaptive voter models"
+title = "Local Markovian approximations for adaptive voter models"
 abstract = ""
 abstract_short = ""
 event = "Conference on Complex Networks (CompleNet) 2018"
