@@ -1,0 +1,21 @@
+# Theme metadata
+name = "pc_theme"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "#e82b00" # vaguely orange
+
+# Menu
+menu_primary = "#e6f7ff"
+menu_text = "#051a24"
+menu_text_active = "#e82b00"
+menu_title = "#051a24"
+
+# Backgrounds
+background = "#fffefc"
+home_section_odd = "#fffefc"
+home_section_even = "#fffefc"
+
+font = "pc_font"
