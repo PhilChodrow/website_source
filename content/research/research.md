@@ -1,6 +1,6 @@
 +++
 title = "Research"
-subtitle = "Networks, data, dynamics"
+subtitle = ""
 
 widget = "blank"
 headless = true  # This file represents a page section.
