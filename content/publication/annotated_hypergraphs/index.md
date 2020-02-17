@@ -24,6 +24,6 @@ summary: "Sampling theory, metrics, and vignettes for studying higher-order netw
 image:
   caption: ""
   focal_point: ""
-  preview_only: false
+  preview_only: true
 
 ---
