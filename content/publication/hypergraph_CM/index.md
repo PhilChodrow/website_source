@@ -16,6 +16,8 @@ url_project : ""
 url_slides : ""
 url_video : ""
 
+summary: Random null models for principled hypothesis-testing in polyadic data.
+
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.

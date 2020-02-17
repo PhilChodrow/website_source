@@ -1,6 +1,6 @@
 ---
 abstract : ""
-authors : ["**PSC**", "C. Franks", "B. Lins"]
+authors : ["Phil Chodrow", "Cole Franks", "Brian Lins"]
 date : "2012-09-12"
 image_preview : ""
 math : true
@@ -16,7 +16,7 @@ url_project : ""
 url_slides : ""
 url_video : ""
 
-abstract: We define upper bound and lower bounds for order-preserving homogeneous of degree one maps on a proper closed cone in $\mathbb{R}^n in terms of the cone spectral radius. We also define weak upper bounds for these maps. For a proper closed cone $C \in \mathbb{R}^n$ , we prove that any order-preserving homogeneous of degree one map $f ; int (C)\rightarrow int (C)$ has a lower bound. If $C$ is polyhedral, we prove that the map $f$ has a weak upper bound. We give examples of weak upper bounds for certain order-preserving homogeneous of degree one maps defined on the interior of $\mathbb{R}_+^n$.
+abstract: We define upper bound and lower bounds for order-preserving homogeneous of degree one maps on a proper closed cone in $\mathbb{R}^n$ in terms of the cone spectral radius. We also define weak upper bounds for these maps. For a proper closed cone $C \in \mathbb{R}^n$ , we prove that any order-preserving homogeneous of degree one map $f ; int (C)\rightarrow int (C)$ has a lower bound. If $C$ is polyhedral, we prove that the map $f$ has a weak upper bound. We give examples of weak upper bounds for certain order-preserving homogeneous of degree one maps defined on the interior of $\mathbb{R}_+^n$.
 
 summary: Novel bounds for a class of dynamical systems on the nonnegative cone. 
 

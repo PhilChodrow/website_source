@@ -15,6 +15,8 @@ url_pdf : "https://arxiv.org/pdf/1901.09456.pdf"
 url_project : ""
 url_slides : ""
 url_video : ""
+summary: "Mathematics of estimating mean subsystem entropy in jointly Gaussian dynamical systems."
+
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

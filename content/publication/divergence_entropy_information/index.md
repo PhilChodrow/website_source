@@ -17,6 +17,8 @@ url_project : ""
 url_slides : ""
 url_video : ""
 categories: ["featured"]
+summary: "An invitation to information theory for complex systems scientists and other nonspecialists."
+
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

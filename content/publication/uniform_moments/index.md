@@ -15,6 +15,8 @@ url_pdf : "https://arxiv.org/pdf/1909.09037.pdf"
 url_project : ""
 url_slides : ""
 url_video : ""
+summary: What's the expected adjacency matrix of a uniformly random multigraph with fixed degree sequence? 
+
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
