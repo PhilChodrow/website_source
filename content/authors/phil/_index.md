@@ -76,8 +76,7 @@ I am a passionate educator, and teach subjects ranging from applied probability 
 
 I am a member of MIT's [Operations Research Center](https://www.mit.edu/~orc/) and the [Laboratory for Information and Decision Systems](https://lids.mit.edu/).  I am supported by the NSF Graduate Research Fellowship. In the summer of 2020, I will join the Department of Mathematics at UCLA as a Hedrick Visiting Assistant Professor. Read my full CV [here](https://philchodrow.gitlab.io/cv/cv.pdf).
 
-
-# News
+## News
 
 - **May 20th, 2020**: I will defend my PhD thesis, "Structure, Dynamics, and Inference in Networks" at 3pm, location TBD.  
 - **Mar. 22nd, 2020**: Invited talk on models of coevolutionary graphs at the Eastern Sectional meeting of the AMS. 
