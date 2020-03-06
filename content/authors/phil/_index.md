@@ -65,9 +65,9 @@ email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-- Researchers
-- Visitors
+# user_groups:
+# - Researchers
+# - Visitors
 ---
 
 I am an applied mathematician interested in network science, applied statistics, probability, and machine learning. Recent projects touch on the dynamics of adaptive networks; random graphs and their generalizations; and inference in generative network models. 
