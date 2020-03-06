@@ -74,13 +74,13 @@ I am an applied mathematician interested in network science, applied statistics,
 
 I am a passionate educator, and teach subjects ranging from applied probability to network science to statistical programming. In 2018, I was my department's nominee for MIT's campus-wide Goodwin Award for "conspicuously effective teaching." 
 
-I am a member of MIT's [Operations Research Center](https://www.mit.edu/~orc/) and the [Laboratory for Information and Decision Systems](https://lids.mit.edu/).  I am supported by the NSF Graduate Research Fellowship. In the summer of 2020, I will join the Department of Mathematics at UCLA as a Hedrick Visiting Assistant Professor. Read my full CV [here](https://philchodrow.gitlab.io/cv/cv.pdf).
+I am a member of MIT's [Operations Research Center](https://www.mit.edu/~orc/) and the [Laboratory for Information and Decision Systems](https://lids.mit.edu/).  I am supported by the NSF Graduate Research Fellowship. In the summer of 2020, I will join the Department of Mathematics at UCLA as a Hedrick Visiting Assistant Professor. You can also read my full [CV](https://philchodrow.gitlab.io/cv/cv.pdf).
 
 ## News
 
 - **May 20th, 2020**: I will defend my PhD thesis, "Structure, Dynamics, and Inference in Networks" at 3pm, location TBD.  
 - **Mar. 22nd, 2020**: Invited talk on models of coevolutionary graphs at the Eastern Sectional meeting of the AMS. 
-- **Feb. 28th, 2020:** Invited (casual) talk on my research on moments of random multigraphs in the ORC Student Seminar at 4pm in E40-103. Slides [here](/slides/multigraph_moments_long.pdf). 
+- **Feb. 28th, 2020:** Invited (casual) talk on my research on moments of random multigraphs in the ORC Student Seminar at 4pm in E40-103. [Slides](/slides/multigraph_moments_long.pdf). 
 - **Feb. 2020: I will be joining the Department of Mathematics at UCLA as a Hedrick Visiting Assistant Professor. Position begins in July.**
 - **Jan. 2020:** ["Annotated Hypergraphs: Models and Applications"](https://link.springer.com/article/10.1007/s41109-020-0252-y) (with Andy Mellor) now published in *Applied Network Science*.
 - **Dec. 2019:** I attended the Complex Networks Winter Workshop in Quebec City, Quebec. Thanks to the organizers!  
