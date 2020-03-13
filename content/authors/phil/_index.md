@@ -79,9 +79,9 @@ I am a member of MIT's [Operations Research Center](https://www.mit.edu/~orc/) a
 ## News
 
 - **May 20th, 2020**: I will defend my PhD thesis, "Structure, Dynamics, and Inference in Networks" at 3pm, location TBD.  
-- **Mar. 22nd, 2020**: Invited talk on models of coevolutionary graphs at the Eastern Sectional meeting of the AMS. [Slides](https://philchodrow.github.io/coevolutionary_graphs).  
+- **Mar. 22nd, 2020**: Invited talk on models of coevolutionary graphs at the Eastern Sectional meeting of the AMS. [Slides](https://philchodrow.github.io/coevolutionary_graphs). 
+- **Mar. 13th, 2020**: "Local Symmetry and Global Structure in Adaptive Voter Models" (with Peter J. Mucha) now published in the *SIAM Journal on Applied Mathematics*. 
 - **Feb. 28th, 2020:** Invited (casual) talk on my research on moments of random multigraphs in the ORC Student Seminar at 4pm in E40-103. [Slides](/slides/multigraph_moments_long.pdf). 
 - **Feb. 2020: I will be joining the Department of Mathematics at UCLA as a Hedrick Visiting Assistant Professor. Position begins in July.**
 - **Jan. 2020:** ["Annotated Hypergraphs: Models and Applications"](https://link.springer.com/article/10.1007/s41109-020-0252-y) (with Andy Mellor) now published in *Applied Network Science*.
-- **Dec. 2019:** I attended the Complex Networks Winter Workshop in Quebec City, Quebec. Thanks to the organizers!  
 

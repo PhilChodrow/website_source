@@ -6,12 +6,12 @@ image_preview : ""
 math : true
 publication_types : ["2"]
 publication : "SIAM Journal on Applied Mathematics (forthcoming)"
-publication_short : "SIAM Journal on Applied Mathematics (forthcoming)"
+publication_short : "SIAM Journal on Applied Mathematics"
 selected : true
 title : "Local symmetry and global structure in adaptive voter models"
 url_code : ""
 url_dataset : ""
-url_pdf : "https://arxiv.org/pdf/1812.05464.pdf"
+url_pdf : "/papers/chodrow_mucha_2020.pdf"
 url_project : ""
 url_slides : ""
 url_video : ""
