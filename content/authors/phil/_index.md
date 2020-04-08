@@ -79,6 +79,7 @@ I am a member of MIT's [Operations Research Center](https://www.mit.edu/~orc/) a
 ## News
 
 - **May 20th, 2020**: I will defend my PhD thesis, "Structure, Dynamics, and Inference in Networks" at 3pm, location TBD.
+- **April 10th, 2020**: Invited talk at UCLA on "Random Graphs for Data Science." ([slides](https://philchodrow.github.io/talks/random_graphs/porter_group/#1)) 
 - **April 1st-3rd, 2020**: I (virtually) attended the Northeastern Regional Complex Systems Conference (NERCCS), where I gave a talk (with [slides](https://philchodrow.github.io/talks/multigraph_moments/NERCCS_2020)) on random graphs and a [poster](https://philchodrow.github.io/talks/networked_endorsements/NERCCS_2020_poster.pdf) on generative models of hierarchy in networks. **Update: best-poster award with [Nicole Eikmeier](https://eikmeier.sites.grinnell.edu/), [Mari Kawakatsu](https://scholar.princeton.edu/ctarnita/people/mari-kawakatsu), and [Dan Larremore](https://larremorelab.github.io/)!** 
 - **Mar. 22nd, 2020**: Invited talk on models of coevolutionary graphs at the Eastern Sectional meeting of the AMS. [Slides](https://philchodrow.github.io/talks/coevolutionary_graphs/index).  
 - **Mar. 13th, 2020**: "Local Symmetry and Global Structure in Adaptive Voter Models" (with Peter J. Mucha) now published in the *SIAM Journal on Applied Mathematics*. Here is the [full text](/papers/chodrow_mucha_2020.pdf).  
