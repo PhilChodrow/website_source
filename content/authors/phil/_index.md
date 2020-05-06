@@ -78,6 +78,7 @@ I am a member of MIT's [Operations Research Center](https://www.mit.edu/~orc/) a
 
 ## News
 
+- **July 9th-10th, 2020**: Contributed (virtual) talk on multigraphs with fixed degree sequences at the SIAM Workshop on Network Science. Additionally, [Nicole Eikmeier](https://eikmeier.sites.grinnell.edu/) will present our recent work with [Mari Kawakatsu](https://scholar.princeton.edu/ctarnita/people/mari-kawakatsu) and [Dan Larremore](https://larremorelab.github.io/) on emergent hierarchies in networks.  
 - **May 20th, 2020**: I will defend my PhD thesis, "Structure, Dynamics, and Inference in Networks" at 3pm. Email me if you'd like a Zoom invite. 
 - **April 10th, 2020**: Invited talk at UCLA on "Random Graphs for Data Science." [Slides](https://philchodrow.github.io/talks/random_graphs/porter_group/#1). 
 - **April 1st-3rd, 2020**: I (virtually) attended the Northeastern Regional Complex Systems Conference (NERCCS), where I gave a talk (with [slides](https://philchodrow.github.io/talks/multigraph_moments/NERCCS_2020)) on random graphs and a [poster](https://philchodrow.github.io/talks/networked_endorsements/NERCCS_2020_poster.pdf) on generative models of hierarchy in networks. **Update: best-poster award with [Nicole Eikmeier](https://eikmeier.sites.grinnell.edu/), [Mari Kawakatsu](https://scholar.princeton.edu/ctarnita/people/mari-kawakatsu), and [Dan Larremore](https://larremorelab.github.io/)!** 
@@ -86,4 +87,3 @@ I am a member of MIT's [Operations Research Center](https://www.mit.edu/~orc/) a
 - **Feb. 28th, 2020:** Invited (casual) talk on my research on moments of random multigraphs in the ORC Student Seminar at 4pm in E40-103. [Slides](/slides/multigraph_moments_long.pdf). 
 - **Feb. 2020: I will be joining the Department of Mathematics at UCLA as a Hedrick Visiting Assistant Professor. Position begins in July.**
 - **Jan. 2020:** ["Annotated Hypergraphs: Models and Applications"](https://link.springer.com/article/10.1007/s41109-020-0252-y) (with Andy Mellor) now published in *Applied Network Science*.
-
