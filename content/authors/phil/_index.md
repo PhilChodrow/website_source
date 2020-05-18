@@ -74,7 +74,7 @@ I am an applied mathematician interested in network science, applied statistics,
 
 I am a passionate educator, and teach subjects ranging from applied probability to network science to statistical programming. In 2018, I was my department's nominee for MIT's campus-wide Goodwin Award for "conspicuously effective teaching." 
 
-I am a member of MIT's [Operations Research Center](https://www.mit.edu/~orc/) and the [Laboratory for Information and Decision Systems](https://lids.mit.edu/).  I am supported by the NSF Graduate Research Fellowship. In the summer of 2020, I will join the Department of Mathematics at UCLA as a Hedrick Visiting Assistant Professor. You can also read my full [CV](https://philchodrow.gitlab.io/cv/cv.pdf).
+I am a member of MIT's [Operations Research Center](https://www.mit.edu/~orc/) and the [Laboratory for Information and Decision Systems](https://lids.mit.edu/).  I am supported by the NSF Graduate Research Fellowship. In the summer of 2020, I will join the Department of Mathematics at UCLA as a Hedrick Visiting Assistant Professor. You can also read my full [CV](https://philchodrow.github.io/CV/cv.pdf).
 
 ## News
 
