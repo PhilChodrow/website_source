@@ -5,8 +5,8 @@ name = "pc_font"
 google_fonts = "Lato:400,400i,700|Raleway:500,500i|Roboto+Mono"
 
 # Font families
-heading_font = "Raleway"
+heading_font = "Lato"
 body_font = "Lato"
-nav_font = "Raleway"
+nav_font = "Lato"
 mono_font = "Roboto Mono"
 
