@@ -7,3 +7,15 @@ nav#navbar-main li.nav-item {
   font-size: 18px;
   font-weight: bold;
 }
+
+img[src$='#floatleft']
+{
+	float:left;
+        //etc. etc/
+}
+
+img[src$='#floatright']
+{
+	float:right;
+       //etc. etc.
+}
