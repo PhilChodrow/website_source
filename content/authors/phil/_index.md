@@ -14,7 +14,7 @@ role: Applied math and data science (he/him/his)
 
 # Organizations/Affiliations
 organizations:
-- name: MIT
+- name: UCLA
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
@@ -70,11 +70,11 @@ email: ""
 # - Visitors
 ---
 
-I am an applied mathematician interested in network science, applied statistics, probability, and machine learning. Recent projects touch on the dynamics of adaptive networks; random graphs and their generalizations; and inference in generative network models. 
+I am a Hedrick Visiting Assistant Professor in the Department of Mathematics at UCLA. My interests include network science, applied probability, and machine learning. In my research, I build mathematically- and statistically-grounded tools for learning from about the structure and dynamics of networked systems. [Recent projects](/research) have focused on random graphs and hypergraphs; dynamics of adaptive networks; and inference in generative network models. 
 
-I am a passionate educator, and teach subjects ranging from applied probability to network science to statistical programming. In 2018, I was my department's nominee for MIT's campus-wide Goodwin Award for "conspicuously effective teaching." 
+I am a passionate educator, and [teach subjects](/teaching) ranging from applied probability to network science to programming. I am enthusiastic about inclusive teaching practices; project-based learning; and a human-centered approach to sharing applied mathematics and computation. I am also a Partner and Affiliated Data Scientist at [QSIDE](https://qsideinstitute.org/), the Institute for the Quantitative Study of Inclusion, Diversity, and Equity. At QSIDE, I support projects that help us learn about disparity in the United States, and mentor undergraduates on modern tools and practices for data science. 
 
-I am a member of MIT's [Operations Research Center](https://www.mit.edu/~orc/) and the [Laboratory for Information and Decision Systems](https://lids.mit.edu/).  I am supported by the NSF Graduate Research Fellowship. In the summer of 2020, I will join the Department of Mathematics at UCLA as a Hedrick Visiting Assistant Professor. You can also read my full [CV](https://philchodrow.github.io/CV/cv.pdf).
+I did my PhD at MIT's [Operations Research Center](https://www.mit.edu/~orc/) under the mentorship of [Marta González](https://ced.berkeley.edu/ced/faculty-staff/marta-gonzalez) and [Patrick Jaillet](http://web.mit.edu/jaillet/www/). My research at MIT was supported by the NSF Graduate Research Fellowship. 
 
 ## News
 
@@ -82,8 +82,3 @@ I am a member of MIT's [Operations Research Center](https://www.mit.edu/~orc/) a
 - **May 20th, 2020**: I will defend my PhD thesis, "Structure, Dynamics, and Inference in Networks" at 3pm. Email me if you'd like a Zoom invite. [Slides](https://philchodrow.github.io/talks/thesis/#1).
 - **April 10th, 2020**: Invited talk at UCLA on "Random Graphs for Data Science." [Slides](https://philchodrow.github.io/talks/random_graphs/porter_group/#1). 
 - **April 1st-3rd, 2020**: I (virtually) attended the Northeastern Regional Complex Systems Conference (NERCCS), where I gave a talk (with [slides](https://philchodrow.github.io/talks/multigraph_moments/NERCCS_2020)) on random graphs and a [poster](https://philchodrow.github.io/talks/networked_endorsements/NERCCS_2020_poster.pdf) on generative models of hierarchy in networks. **Update: best-poster award with [Nicole Eikmeier](https://eikmeier.sites.grinnell.edu/), [Mari Kawakatsu](https://scholar.princeton.edu/ctarnita/people/mari-kawakatsu), and [Dan Larremore](https://larremorelab.github.io/)!** 
-- **Mar. 22nd, 2020**: Invited talk on models of coevolutionary graphs at the Eastern Sectional meeting of the AMS. [Slides](https://philchodrow.github.io/talks/coevolutionary_graphs/index).  
-- **Mar. 13th, 2020**: "Local Symmetry and Global Structure in Adaptive Voter Models" (with Peter J. Mucha) now published in the *SIAM Journal on Applied Mathematics*. Here is the [full text](/papers/chodrow_mucha_2020.pdf).  
-- **Feb. 28th, 2020:** Invited (casual) talk on my research on moments of random multigraphs in the ORC Student Seminar at 4pm in E40-103. [Slides](/slides/multigraph_moments_long.pdf). 
-- **Feb. 2020: I will be joining the Department of Mathematics at UCLA as a Hedrick Visiting Assistant Professor. Position begins in July.**
-- **Jan. 2020:** ["Annotated Hypergraphs: Models and Applications"](https://link.springer.com/article/10.1007/s41109-020-0252-y) (with Andy Mellor) now published in *Applied Network Science*.
