@@ -70,7 +70,7 @@ email: ""
 # - Visitors
 ---
 
-I am a Hedrick Visiting Assistant Professor in the Department of Mathematics at UCLA. My interests include network science, applied probability, and machine learning. In my research, I build mathematically- and statistically-grounded tools studying the structure and dynamics of networked systems. [Recent projects](/research) have focused on random graphs and hypergraphs; dynamics of adaptive networks; and inference in generative network models. 
+I am a Hedrick Visiting Assistant Adjunct Professor (i.e. postdoc) in the Department of Mathematics at UCLA. My research interests include network science, applied probability, and machine learning. In my research, I build principled tools for studying the structure and dynamics of networked systems. [Recent projects](/research) have focused on random graphs and hypergraphs; dynamics of adaptive networks; and inference in generative network models. 
 
 I am a passionate educator, and [teach subjects](/teaching) ranging from applied probability to network science to computer programming. I am enthusiastic about inclusive teaching practices; project-based learning; and a human-centered approach to sharing applied mathematics and computation. I am also a Partner and Affiliated Data Scientist at [QSIDE](https://qsideinstitute.org/), the Institute for the Quantitative Study of Inclusion, Diversity, and Equity. At QSIDE, I support projects that help us learn about disparity in the United States, and mentor undergraduates on modern tools and practices for data science. 
 
