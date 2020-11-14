@@ -68,6 +68,11 @@ subtitle = ""
  css_class = ""
 +++
 
+# UCLA
+
+### Fall 2020
+
+- **[PIC16A](https://philchodrow.github.io/PIC16A/):** **Python with Applications I.** A flipped-classroom course focusing on Python basics and scientific computing, including data science and machine learning. 
 
 # MIT
 
