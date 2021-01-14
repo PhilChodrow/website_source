@@ -78,6 +78,7 @@ I did my PhD at MIT's [Operations Research Center](https://www.mit.edu/~orc/) un
 
 ## News
 
+- **May, 2021**: Invited minisymposium presentation at the SIAMDS (Snowbird) on "Emergence of hierarchy in networked endorsement dynamics."
 - **February, 2021**: Invited talk at AAAI on "Hypergraph Clustering: From Blockmodels to Modularities." 
 - **October 28th, 2020**: "Moments of uniform random multigraphs with fixed degree sequences is now published in the *SIAM Journal on Mathematics of Data Science.* You can read the [full text](https://epubs.siam.org/doi/pdf/10.1137/19M1288772).  
 - **Aug. 4th, 2020**: "Configuration models of random hypergraphs" is published in the *Journal of Complex Networks.* You can read the [full text](https://academic.oup.com/comnet/article/8/3/cnaa018/5879929?guestAccessKey=b7e63b40-8400-4fc5-9a7d-39d2d11a1d26). 
