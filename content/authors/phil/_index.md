@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Applied math and data science (he/him/his)
+role: Applied math and data science @UCLA (he/him/his)
 
 # Organizations/Affiliations
 organizations:
