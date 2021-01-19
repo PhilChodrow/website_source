@@ -70,7 +70,7 @@ email: ""
 # - Visitors
 ---
 
-I am a Hedrick Visiting Assistant Adjunct Professor in the Department of Mathematics at UCLA, mentored by Mason Porter. My interests include network science, applied probability, and machine learning. In my research, I build principled tools for studying the structure and dynamics of networked systems. [Recent projects](/research) include models random graphs and hypergraphs; dynamics of adaptive networks; inference in generative network models; and techniques for clustering higher-order network data.  
+I am a Hedrick Visiting Assistant Adjunct Professor in the Department of Mathematics at UCLA, mentored by Mason Porter. My interests include network science, applied probability, and machine learning. In my research, I build principled tools for studying the structure and dynamics of networked systems. [Recent projects](/research) include models of random graphs and hypergraphs; dynamics of adaptive networks; inference in generative network models; and techniques for clustering higher-order network data.  
 
 I am a passionate educator, and [teach subjects](/teaching) ranging from applied probability to network science to computer programming. I am enthusiastic about evidence-based, inclusive teaching; project-based learning; and a human-centered approach to creative, quantitative problem-solving. I am also a Partner and Affiliated Data Scientist at [QSIDE](https://qsideinstitute.org/), the Institute for the Quantitative Study of Inclusion, Diversity, and Equity. At QSIDE, I support projects that build quantitative insight about disparity in the United States, and mentor undergraduates on modern tools and practices for data science. 
 
