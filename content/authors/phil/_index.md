@@ -70,7 +70,7 @@ email: ""
 # - Visitors
 ---
 
-I am a Hedrick Visiting Assistant Adjunct Professor in the Department of Mathematics at UCLA, mentored by Mason Porter. My interests include network science, applied probability, and machine learning. In my research, I build principled tools for studying the structure and dynamics of networked systems. [Recent projects](/research) include models of random graphs and hypergraphs; dynamics of adaptive networks; inference in generative network models; and techniques for clustering higher-order network data.  
+I am a Hedrick Visiting Assistant Adjunct Professor in the Department of Mathematics at UCLA, mentored by Mason Porter. My interests include network science, nonlinear dynamics, applied probability, and machine learning. In my research, I build principled tools for studying the structure and dynamics of networked systems. [Recent projects](/research) include models of random graphs and hypergraphs; dynamics of adaptive networks; inference in generative network models; and techniques for clustering higher-order network data.  
 
 I am a passionate educator, and [teach subjects](/teaching) ranging from applied probability to network science to computer programming. I am enthusiastic about evidence-based, inclusive teaching; project-based learning; and a human-centered approach to creative, quantitative problem-solving. I am also a Partner and Affiliated Data Scientist at [QSIDE](https://qsideinstitute.org/), the Institute for the Quantitative Study of Inclusion, Diversity, and Equity. At QSIDE, I support projects that build quantitative insight about disparity in the United States, and mentor undergraduates on modern tools and practices for data science. 
 
@@ -78,7 +78,7 @@ I did my PhD at MIT's [Operations Research Center](https://www.mit.edu/~orc/) un
 
 ## News
 
-- **May, 2021**: Invited minisymposium presentation at the SIAMDS (Snowbird) on "Emergence of hierarchy in networked endorsement dynamics."
+- **May, 2021**: Invited minisymposium presentation at the SIAMDS (Snowbird) on "Emergence of Hierarchy in Networked Endorsement Dynamics" with [Nicole Eikmeier](https://eikmeier.sites.grinnell.edu/), [Mari Kawakatsu](https://scholar.princeton.edu/ctarnita/people/mari-kawakatsu), and [Dan Larremore](https://larremorelab.github.io/). [Preprint on arXiv](https://arxiv.org/abs/2007.04448).
 - **February, 2021**: Invited talk at AAAI on "Hypergraph Clustering: From Blockmodels to Modularities." 
 - **October 28th, 2020**: "Moments of uniform random multigraphs with fixed degree sequences is now published in the *SIAM Journal on Mathematics of Data Science.* You can read the [full text](https://epubs.siam.org/doi/pdf/10.1137/19M1288772).  
 - **Aug. 4th, 2020**: "Configuration models of random hypergraphs" is published in the *Journal of Complex Networks.* You can read the [full text](https://academic.oup.com/comnet/article/8/3/cnaa018/5879929?guestAccessKey=b7e63b40-8400-4fc5-9a7d-39d2d11a1d26). 
