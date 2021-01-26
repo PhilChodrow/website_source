@@ -5,13 +5,13 @@ date : "2020-08-04"
 image_preview : ""
 math : true
 publication_types : ["2"]
-publication : "SIAM Journal on the Mathematics of Data Science (forthcoming)"
-publication_short : "SIMODS (forthcoming)"
+publication : "SIAM Journal on the Mathematics of Data Science"
+publication_short : "SIMODS"
 selected : true
 title : "Moments of uniform random multigraphs with fixed degree sequences"
 url_code : ""
 url_dataset : ""
-url_pdf : "https://arxiv.org/pdf/1909.09037.pdf"
+url_pdf : "https://epubs.siam.org/doi/pdf/10.1137/19M1288772"
 url_project : ""
 url_slides : ""
 url_video : ""
