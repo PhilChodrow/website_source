@@ -45,8 +45,10 @@ Some of my **recent collaborators** are:
 
 <!-- ## Recent Collaborators -->
 
+- **[Nate Veldt](https://people.cam.cornell.edu/lnv22/)**, Cornell University
+- **[Austin Benson](https://www.cs.cornell.edu/~arb/)**, Cornell University
 - **[Nicole Eikmeier](https://eikmeier.sites.grinnell.edu/)**, Grinnell College
-- **[Mari Kawakatsu](https://scholar.princeton.edu/ctarnita/people/mari-kawakatsu)**, Princeton University
+- **[Mari Kawakatsu](https://www.marikawakatsu.com/)**, Princeton University
 - **[Dan Larremore](https://larremorelab.github.io/)**, UC Boulder
 - **[Marta González](https://ced.berkeley.edu/ced/faculty-staff/marta-gonzalez)**, UC Berkeley 
 - **[Andy Mellor](https://andrewmellor.co.uk/)**, Oxford
