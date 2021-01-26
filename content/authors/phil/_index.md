@@ -78,12 +78,14 @@ I did my PhD at MIT's [Operations Research Center](https://www.mit.edu/~orc/) un
 
 ## News
 
-- **May, 2021**: Invited minisymposium presentation at the SIAMDS (Snowbird) on "Emergence of Hierarchy in Networked Endorsement Dynamics" with [Nicole Eikmeier](https://eikmeier.sites.grinnell.edu/), [Mari Kawakatsu](https://scholar.princeton.edu/ctarnita/people/mari-kawakatsu), and [Dan Larremore](https://larremorelab.github.io/). [Preprint on arXiv](https://arxiv.org/abs/2007.04448).
-- **February, 2021**: Invited talk at AAAI on "Hypergraph Clustering: From Blockmodels to Modularities." 
+- **January 26th, 2020**: New preprint! "Hypergraph clustering: from blockmodels to modularity" with [Nate Veldt](https://people.cam.cornell.edu/lnv22/) and [Austin Benson](https://www.cs.cornell.edu/~arb/). [arXiv link](https://arxiv.org/abs/2101.09611)
 - **October 28th, 2020**: "Moments of uniform random multigraphs with fixed degree sequences is now published in the *SIAM Journal on Mathematics of Data Science.* You can read the [full text](https://epubs.siam.org/doi/pdf/10.1137/19M1288772).  
 - **Aug. 4th, 2020**: "Configuration models of random hypergraphs" is published in the *Journal of Complex Networks.* You can read the [full text](https://academic.oup.com/comnet/article/8/3/cnaa018/5879929?guestAccessKey=b7e63b40-8400-4fc5-9a7d-39d2d11a1d26). 
 - **July 10th, 2020**: New preprint! "Emergence of hierarchy in networked endorsement dynamics" with [Nicole Eikmeier](https://eikmeier.sites.grinnell.edu/), [Mari Kawakatsu](https://scholar.princeton.edu/ctarnita/people/mari-kawakatsu), and [Dan Larremore](https://larremorelab.github.io/). [arXiv link](https://arxiv.org/abs/2007.04448).
 - **July 9th-10th, 2020**: Contributed (virtual) talk on multigraphs with fixed degree sequences at the SIAM Workshop on Network Science (with [slides](https://philchodrow.github.io/talks/multigraph_moments/SIAMNS20/#1)). Additionally, [Nicole Eikmeier](https://eikmeier.sites.grinnell.edu/) will present our recent work with [Mari Kawakatsu](https://scholar.princeton.edu/ctarnita/people/mari-kawakatsu) and [Dan Larremore](https://larremorelab.github.io/) on emergent hierarchies in networks.  
-- **May 20th, 2020**: I defended my PhD thesis, "Structure, Dynamics, and Inference in Networks." [Slides](https://philchodrow.github.io/talks/thesis/#1).
-- **April 10th, 2020**: Invited talk at UCLA on "Random Graphs for Data Science." [Slides](https://philchodrow.github.io/talks/random_graphs/porter_group/#1).
 - **April 1st-3rd, 2020**: I (virtually) attended the Northeastern Regional Complex Systems Conference (NERCCS), where I gave a talk (with [slides](https://philchodrow.github.io/talks/multigraph_moments/NERCCS_2020)) on random graphs and a [poster](https://philchodrow.github.io/talks/networked_endorsements/NERCCS_2020_poster.pdf) on generative models of hierarchy in networks. **Update: best-poster award with [Nicole Eikmeier](https://eikmeier.sites.grinnell.edu/), [Mari Kawakatsu](https://scholar.princeton.edu/ctarnita/people/mari-kawakatsu), and [Dan Larremore](https://larremorelab.github.io/)!** 
+
+## Upcoming talks
+
+- **May, 2021**: Invited minisymposium presentation at the SIAMDS (Snowbird) on "Emergence of Hierarchy in Networked Endorsement Dynamics" with [Nicole Eikmeier](https://eikmeier.sites.grinnell.edu/), [Mari Kawakatsu](https://scholar.princeton.edu/ctarnita/people/mari-kawakatsu), and [Dan Larremore](https://larremorelab.github.io/). [Preprint on arXiv](https://arxiv.org/abs/2007.04448).
+- **February, 2021**: Invited talk at AAAI on "Hypergraph Clustering: From Blockmodels to Modularities." 
