@@ -78,7 +78,8 @@ I did my PhD at MIT's [Operations Research Center](https://www.mit.edu/~orc/) un
 
 ## News
 
-- **January 26th, 2020**: New preprint! "Hypergraph clustering: from blockmodels to modularity" with [Nate Veldt](https://people.cam.cornell.edu/lnv22/) and [Austin Benson](https://www.cs.cornell.edu/~arb/). [arXiv link](https://arxiv.org/abs/2101.09611)
+- **March 31st, 2021**: I served on an invited panel for early-career researchers at the [Northeastern Regional Conference on Complex Systems](https://nerccs2021.github.io/) (NERCCS). 
+- **January 26th, 2021**: New preprint! "Hypergraph clustering: from blockmodels to modularity" with [Nate Veldt](https://people.cam.cornell.edu/lnv22/) and [Austin Benson](https://www.cs.cornell.edu/~arb/). [arXiv link](https://arxiv.org/abs/2101.09611)
 - **October 28th, 2020**: "Moments of uniform random multigraphs with fixed degree sequences is now published in the *SIAM Journal on Mathematics of Data Science.* You can read the [full text](https://epubs.siam.org/doi/pdf/10.1137/19M1288772).  
 - **Aug. 4th, 2020**: "Configuration models of random hypergraphs" is published in the *Journal of Complex Networks.* You can read the [full text](https://academic.oup.com/comnet/article/8/3/cnaa018/5879929?guestAccessKey=b7e63b40-8400-4fc5-9a7d-39d2d11a1d26). 
 - **July 10th, 2020**: New preprint! "Emergence of hierarchy in networked endorsement dynamics" with [Nicole Eikmeier](https://eikmeier.sites.grinnell.edu/), [Mari Kawakatsu](https://scholar.princeton.edu/ctarnita/people/mari-kawakatsu), and [Dan Larremore](https://larremorelab.github.io/). [arXiv link](https://arxiv.org/abs/2007.04448).
