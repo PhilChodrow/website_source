@@ -39,9 +39,11 @@
     <div>
       {{ if .Params.publication_short }}
         {{ partial "page_metadata_authors" $item }}
-        ({{- .Date.Format "2006" -}}). 
         <span> </span> 
-        {{- .Params.publication_short | markdownify -}}. 
+        <br>
+        <i>
+        {{- .Params.publication_short | markdownify -}}
+        </i> ({{- .Date.Format "2006" -}}).  
       {{ else if .Params.publication }}
         {{- .Params.publication | markdownify -}}.
         ({{- .Date.Format "2006" -}}).
@@ -50,7 +52,7 @@
       {{ end }}
     </div>
 
-    <div class="stream-meta article-metadata">
+    <!-- <div class="stream-meta article-metadata"> -->
 
      <!--  {{ if eq $item.Type "talk" }}
       <div>
@@ -71,12 +73,12 @@
       {{ else if not $show_authors_only }}
         {{ partial "page_metadata" (dict "page" $item "is_list" 1) }}
       {{ end }} -->
-    </div>
-    {{ with $summary }}
+    <!-- </div> -->
+    <!-- {{ with $summary }}
     <div class="article-style">
       {{ . | truncate 135 }}
     </div>
-    {{ end }}
+    {{ end }} -->
     <!-- {{ if $show_buttons }}
     <div class="btn-links">
       {{ partial "page_links" (dict "page" $item "is_list" 1) }}
@@ -84,7 +86,7 @@
     <!-- {{ end }} -->
 
   </div>
-  <div class="ml-3">
+  <!-- <div class="ml-3">
     {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
     {{ with $resource }}
     {{ $image := .Resize "150x" }}
@@ -92,5 +94,5 @@
       <img src="{{ $image.RelPermalink }}" alt="">
     </a>
     {{end}}
-  </div>
+  </div> -->
 </div>
