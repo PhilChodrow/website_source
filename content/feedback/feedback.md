@@ -70,7 +70,7 @@ subtitle = ""
 
 ### Disclaimer
 
-This is a *highly curated* list of feedback I've received from students in both official and unofficial course evaluations. I've divided the notes into broad themes. 
+This is a *highly curated* subset of feedback I've received from students in both official and self-designed evaluations. I've divided the feedback into broad themes. 
 
 ## Course Effectiveness
 
@@ -108,7 +108,7 @@ This is a *highly curated* list of feedback I've received from students in both 
 *Phil is 100% the best professor I've had at UCLA and honestly probably the best teacher I've ever had period. Let him do whatever he wants at UCLA. Heck, make him the department chair. He deserves it.* 
 <br> - PIC16A, Fall '20 
 <br> 
-\[Editorial note: I'm not sure this student was fully aware of what they were wishing on me.\]
+\[Editorial note: I'm not sure this student understood what they were wishing on me.\]
 
 *Thanks so much for a wonderful quarter! Live Long and Prosper :)* <br> - PIC16A, Fall '20 <br>
 \[Editorial note: Star Trek is a running bit throughout the lecture notes.\]

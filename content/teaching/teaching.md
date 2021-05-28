@@ -68,34 +68,57 @@ subtitle = ""
  css_class = ""
 +++
 
-
-# Approach
-
 My primary aim as a teacher is to make the power of mathematical reasoning and quantitative problem-solving accessible to *all* students. I consistently gather data about my teaching, and use it to assess the accessibility and relevance of my offerings. I am especially interested in the potential for innovative, inclusive teaching techniques to ameliorate race and gender disparities in applied mathematics and data science. 
 
-Some educational techniques I'm excited about include: 
+<!-- Some educational techniques I'm excited about include: 
 
 - **Learning micro-communities**. Especially during the isolating time of COVID-19, I aim to build small, persistent groups of students who can offer support and act as witnesses to the learning of their peers. 
 - **Flipped classrooms**. The theory is simple: the critical time in a student's learning journey comes when they are actively solving problems. Flipped methodologies allow me to prioritize this active time, while simultaneously giving students flexibility on how my course fits into their schedules. 
-- **[Mastery grading](https://www.masterygrading.com/)**. Mastery grading is an assessment methodology that promotes high standards, clear communication, and student control over their journey through the course. *This is a new technique for me,* and I am still learning more. I aim to implement it in PIC16B starting in Fall 2021. 
+- **[Mastery grading](https://www.masterygrading.com/)**. Mastery grading is an assessment methodology that promotes high standards, clear communication, and student control over their journey through the course. *This is a new technique for me,* and I am still learning more. I aim to implement it in PIC16B starting in Fall 2021.  -->
 
 If you'd like, you can read some [nice things my students have said about me](/feedback).  
 
+## Gender Gap in Computing
 
+Starting in Winter 2021, I began to measure the effectiveness of my course in narrowing the  [known gender gap](https://www.computerscience.org/resources/women-in-computer-science/#:~:text=According%20to%20the%20American%20Association%20of%20University%20Women%2C%20computer%20science,94%25%20of%20what%20men%20earn.&text=Only%2020%25%20of%20computer%20science%20professionals%20are%20women.) in computing. At three points in the course, I asked students to describe their interest and confidence in computing through a series of questions. Here is what I found (click to zoom): 
+
+{{< figure src="/img/resources/W21-eval.png" title="Custom evaluation of course effectiveness, segmented by self-identified gender. Responses shown for the 32 female students and 31 male students who completed all three surveys." >}}
+
+Students' tendency to agree with most of the supplied statements increased over the course of the class, with larger increases among female students. Students who take my class---especially women---leave with strengthened convictions that: 
+
+- They have the power to choose a career in computing. 
+- Computing is an enjoyable and relevant activity. 
+- They are able to effectively read and write code, both alone and in groups. 
+
+Currently, I am working on both improving this evaluation tool and leveraging these insights to further develop my teaching activities toward equity and inclusion. 
 
 # Courses at UCLA
 
 
+
+
+**[PIC16A](https://philchodrow.github.io/PIC16A/):** **Python with Applications I.** A flipped-classroom, team-based course focusing on Python basics and technical computing. Special emphasis on techniques for data science and machine learning.
+- Taught in Fall 2020, Winter 2021, Spring 2021. 
+  - [Current syllabus](https://philchodrow.github.io/PIC16A/syllabus/)
+  - [Sample homework](https://nbviewer.jupyter.org/github/PhilChodrow/PIC16A/blob/master/homework/HW6.ipynb)
+  - Sample lecture on handwritten digit classification: [video](https://www.youtube.com/watch?v=H6YG4HMAZPU) and [notes](https://youtu.be/H6YG4HMAZPU). 
+  - Final Exam, Winter 2021 (mean score: 93%)
+    - [Problem 1](https://nbviewer.jupyter.org/github/PhilChodrow/PIC16A/blob/master/prior_exams/W21/final/P1.ipynb)
+    - [Problem 2](https://nbviewer.jupyter.org/github/PhilChodrow/PIC16A/blob/master/prior_exams/W21/final/P2.ipynb)
+  - Narrowing the gender gap: [custom evaluation](#gender-gap-in-computing). 
+- Scheduled for Fall 2021.
+
+**[PIC16B](https://philchodrow.github.io/PIC16B/):** **Python with Applications II.** A project-based course in advanced technical computing and data science with Python. Topics include data analysis and acquisition; numerical programming; machine learning via TensorFlow; natural language processing; and network science.
+- Taught in Spring 2021
+  - [Current syllabus](https://philchodrow.github.io/PIC16B/syllabus/)
+  - [Sample homework](https://nbviewer.jupyter.org/github/PhilChodrow/PIC16B/blob/master/HW/spectral-clustering.ipynb)
+  - [Project prompt](https://philchodrow.github.io/PIC16B/project/)
+- Scheduled for Fall 2021 and Winter 2022. 
+
 **MATH 168**: An upper division course in the mathematics of network science. To cover topics including measuring networks, random graph models, learning tasks on networks, and dynamical systems on networks. 
 - Scheduled for Spring, 2022. 
 
-**[PIC16B](https://philchodrow.github.io/PIC16B/):** **Python with Applications II.** A project-based course in advanced technical computing and data science in Python, covering topics including data analysis and acquisition; numerical programming; machine learning via TensorFlow; natural language processing; and network science.
-- Taught in Spring 2021. 
-- Scheduled for Fall 2021 and Winter 2022. 
 
-**[PIC16A](https://philchodrow.github.io/PIC16A/):** **Python with Applications I.** A flipped-classroom course focusing on Python basics and scientific computing, including data science and machine learning. 
-- Taught in Fall 2020, Winter 2021, Spring 2021. 
-- Scheduled for Fall 2021.
 
 # Before UCLA
 
