@@ -77,6 +77,8 @@ This is a *highly curated* subset of feedback I've received from students in bot
 *This class demanded a lot from us...Overall I feel so proud of what I've been able to accomplish in this class. I feel like I've grown in my abiliites to describe my ideas, communicate my coding thought process, work as a member of a group, time manage, not procrastinate, and approach problems with confidence instead of doubt. Thank you Professor Chodrow, and to all the TAs and LAs who have put so much time and love into this course! I've learned so much and I'm so excited to use it!!!* <br> - PIC16A, Winter '21
 
 
+*I can't believe I learned so much in the span of 10 weeks!! When I was interviewing for internships I could quote some of the class assignments and people were impressed :)* <br> - PIC16A, Spring '21
+
 *Thank you for igniting the fire in me to pursue programming. Honestly, I entered this class scared because of the lack of coding experience. But in these three months, I ended up loving programming...I feel blessed that I got the opportunity to be in your class* <br> - PIC16A, Fall '20
 
 *...going into this class, I was extremely worried and asking myself why I'm even trying. Thankfully, basically thanks to your doing, I'm leaving this course with a sense of pride about how much I've achieved and learned despite the voice in the back of my mind telling me I can't do it...I'm proud of the progress I've made...* <br> - PIC16A, Fall '20
@@ -109,6 +111,8 @@ This is a *highly curated* subset of feedback I've received from students in bot
 <br> - PIC16A, Fall '20 
 <br> 
 \[Editorial note: I'm not sure this student understood what they were wishing on me.\]
+
+*I think this was the course in which I "grew up."* <br> - PIC16B, Spring '21
 
 *Thanks so much for a wonderful quarter! Live Long and Prosper :)* <br> - PIC16A, Fall '20 <br>
 \[Editorial note: Star Trek is a running bit throughout the lecture notes.\]
