@@ -2,11 +2,11 @@
 name = "pc_font"
 
 # Optional Google font URL
-google_fonts = "Roboto+Mono|Lora:ital,wght@0,400;0,700;1,400;1,700|Libre+Franklin:ital,wght@0,400;0,500;0,400;1,500;1"
+google_fonts = "Roboto+Mono|Lora:ital,wght@0,400;0,700;1,400;1,700|Libre+Franklin:ital,wght@0,400;0,500;0,400;1,500;1|Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600"
 
 # Font families
 heading_font = "Lora"
-body_font = "Libre Franklin"
+body_font = "Source Sans Pro"
 nav_font = "Libre Franklin"
 mono_font = "Roboto Mono"
 

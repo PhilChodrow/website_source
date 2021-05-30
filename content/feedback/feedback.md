@@ -74,7 +74,7 @@ This is a *highly curated* subset of feedback I've received from students in bot
 
 ## Course Effectiveness
 
-*This class demanded a lot from us...Overall I feel so proud of what I've been able to accomplish in this class. I feel like I've grown in my abiliites to describe my ideas, communicate my coding thought process, work as a member of a group, time manage, not procrastinate, and approach problems with confidence instead of doubt. Thank you Professor Chodrow, and to all the TAs and LAs who have put so much time and love into this course! I've learned so much and I'm so excited to use it!!!* <br> - PIC16A, Winter '21
+*This class demanded a lot from us...Overall I feel so proud of what I've been able to accomplish in this class. I feel like I've grown in my abilities to describe my ideas, communicate my coding thought process, work as a member of a group, time manage, not procrastinate, and approach problems with confidence instead of doubt. Thank you Professor Chodrow, and to all the TAs and LAs who have put so much time and love into this course! I've learned so much and I'm so excited to use it!!!* <br> - PIC16A, Winter '21
 
 
 *I can't believe I learned so much in the span of 10 weeks!! When I was interviewing for internships I could quote some of the class assignments and people were impressed :)* <br> - PIC16A, Spring '21
@@ -84,12 +84,6 @@ This is a *highly curated* subset of feedback I've received from students in bot
 *...going into this class, I was extremely worried and asking myself why I'm even trying. Thankfully, basically thanks to your doing, I'm leaving this course with a sense of pride about how much I've achieved and learned despite the voice in the back of my mind telling me I can't do it...I'm proud of the progress I've made...* <br> - PIC16A, Fall '20
 
 *This quarter I feel like my coding skills faced a sharp learning curve. Not only did I learn so much, but I also enjoyed what I was doing because I was able to understand it and felt motivated to do so. I think the structure of this class helped me really stay on top of things and not fall behind too often, which was really helpful in the overall experience.* <br> - PIC16A, Winter '21
-
-
-
-
-
-
 
 ## Course Environment
 
