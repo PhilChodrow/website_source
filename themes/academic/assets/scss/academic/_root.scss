@@ -6,7 +6,7 @@ html {
   font-family: $sta-font-body, sans-serif;
   font-size: #{$sta-font-size-small}px;
   color: rgba(0,0,0,0.8);
-  line-height: 1.65;
+  line-height: 1.4;
 }
 @media screen and (min-width: 58em) {
   html {
@@ -114,7 +114,14 @@ h3.article-title a:hover {
   color: $sta-link;
   text-decoration: none;
   transition: color 0.6s ease;
+  font-weight: 400;
 }
+
+// h3.article-title a:hover {
+//   font-family: $sta-font-body;
+//   font-size: 2rem;
+//   font-weight: 500;
+// }
 
 a:hover,
 a:focus {

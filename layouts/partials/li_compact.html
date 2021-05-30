@@ -32,15 +32,15 @@
 
 <div class="media stream-item">
   <div class="media-body">
-
     <h3 class="article-title mb-0 mt-0">
       <a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a>
     </h3>
     <div>
       {{ if .Params.publication_short }}
+      <div class>
         {{ partial "page_metadata_authors" $item }}
+      </div>
         <span> </span> 
-        <br>
         <i>
         {{- .Params.publication_short | markdownify -}}
         </i> ({{- .Date.Format "2006" -}}).  
@@ -51,48 +51,5 @@
         {{ partial "page_metadata_authors" $item }}
       {{ end }}
     </div>
-
-    <!-- <div class="stream-meta article-metadata"> -->
-
-     <!--  {{ if eq $item.Type "talk" }}
-      <div>
-        <span>
-          {{ partial "functions/get_event_dates" $item }}
-        </span>
-        {{ with $item.Params.location }}
-        <span class="middot-divider"></span>
-        <span>{{ . }}</span>
-        {{ end }}
-      </div>
-      {{ end }} -->
-
-      <!-- {{ if and $show_authors_only $item.Params.authors }}
-      <div>
-        {{ partial "page_metadata_authors" $item }}
-      </div>
-      {{ else if not $show_authors_only }}
-        {{ partial "page_metadata" (dict "page" $item "is_list" 1) }}
-      {{ end }} -->
-    <!-- </div> -->
-    <!-- {{ with $summary }}
-    <div class="article-style">
-      {{ . | truncate 135 }}
-    </div>
-    {{ end }} -->
-    <!-- {{ if $show_buttons }}
-    <div class="btn-links">
-      {{ partial "page_links" (dict "page" $item "is_list" 1) }}
-    </div> -->
-    <!-- {{ end }} -->
-
   </div>
-  <!-- <div class="ml-3">
-    {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
-    {{ with $resource }}
-    {{ $image := .Resize "150x" }}
-    <a href="{{$link}}" {{ $target | safeHTMLAttr }}>
-      <img src="{{ $image.RelPermalink }}" alt="">
-    </a>
-    {{end}}
-  </div> -->
 </div>

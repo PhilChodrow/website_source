@@ -2,11 +2,11 @@
 name = "pc_font"
 
 # Optional Google font URL
-google_fonts = "Lato:400,400i,700|Raleway:500,500i|Roboto+Mono"
+google_fonts = "Roboto+Mono|Lora:ital,wght@0,400;0,700;1,400;1,700|Libre+Franklin:ital,wght@0,400;0,500;0,400;1,500;1"
 
 # Font families
-heading_font = "Lato"
-body_font = "Lato"
-nav_font = "Lato"
+heading_font = "Lora"
+body_font = "Libre Franklin"
+nav_font = "Libre Franklin"
 mono_font = "Roboto Mono"
 

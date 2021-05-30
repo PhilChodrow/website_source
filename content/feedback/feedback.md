@@ -117,6 +117,6 @@ This is a *highly curated* subset of feedback I've received from students in bot
 *Thanks so much for a wonderful quarter! Live Long and Prosper :)* <br> - PIC16A, Fall '20 <br>
 \[Editorial note: Star Trek is a running bit throughout the lecture notes.\]
 
-
+*Very S-tier.* <br> - PIC16A, Spring '21
 
 *If I could take every math/PIC class with him, I would in a heartbeat.* <br> - PIC16A, Fall '21
