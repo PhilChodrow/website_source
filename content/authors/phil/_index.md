@@ -78,18 +78,13 @@ I did my PhD at MIT's [Operations Research Center](https://www.mit.edu/~orc/) un
 
 ## News
 
+- **June/July, 2021**. I am giving three talks at the Networks 2021 conference: 
+  - Detectability of Communities in Heterogeneous Hypergraphs (invited) in the satellite on Higher-Order Models in Network Science (HONS). [Slides](https://philchodrow.github.io/talks/HONS21/short#1). 
+  - Generative Hypergraph Clustering: From Blockmodels to Modularity in the satellite on Statistical Inference in Network Models (SINM). [Paper](https://arxiv.org/pdf/2101.09611.pdf), [slides](https://philchodrow.github.io/talks/hmod/short#1). 
+  - Moments of Uniformly Random Multigraphs With Fixed Degree Sequences [Paper](https://epubs.siam.org/doi/pdf/10.1137/19M1288772), [slides](https://philchodrow.github.io/talks/multigraph_moments/SIAMNS20). 
 - **June 1st, 2021**: Admitted to the Gold '21 Cohort of the MAA's [Project NExT](https://www.maa.org/programs-and-communities/professional-development/project-next) program! Looking forward to meeting some awesome folks and learn more about innovative pedagogy, student engagement, teacher-scholarship, and equity in the math community.  
 - **May 25th, 2021**: Invited presentation at the SIAM Conference on Applications of Dynamical Systems minisymposium on Mathematics of Inequity and Inequality. I'll be speaking on "[Emergence of Hierarchy in Networked Endorsement Dynamics](https://www.pnas.org/content/118/16/e2015188118.short)" with [Nicole Eikmeier](https://eikmeier.sites.grinnell.edu/), [Mari Kawakatsu](https://scholar.princeton.edu/ctarnita/people/mari-kawakatsu), and [Dan Larremore](https://larremorelab.github.io/). Check out the [preprint](https://arxiv.org/abs/2007.04448) or the [slides](https://philchodrow.github.io/talks/emergence-of-hierarchy/short).
 - **February 9th, 2021**: Invited talk at AAAI workshop on [Graphs And More Complex Structures For Learning And Reasoning](https://sites.google.com/view/gclr2021/speakers). I'll be speaking on the [recent preprint](https://arxiv.org/abs/2101.09611) "Hypergraph clustering: from blockmodels to modularities"  with [Nate Veldt](https://people.cam.cornell.edu/lnv22/) and [Austin Benson](https://www.cs.cornell.edu/~arb/). [Slides for the talk](https://philchodrow.github.io/talks/hmod/#1). 
 - **January 26th, 2020**: New preprint! "Hypergraph clustering: from blockmodels to modularity" with [Nate Veldt](https://people.cam.cornell.edu/lnv22/) and [Austin Benson](https://www.cs.cornell.edu/~arb/). [arXiv link](https://arxiv.org/abs/2101.09611)
 - **October 28th, 2020**: "Moments of uniform random multigraphs with fixed degree sequences is now published in the *SIAM Journal on Mathematics of Data Science.* You can read the [full text](https://epubs.siam.org/doi/pdf/10.1137/19M1288772).  
-
-
-
-## Upcoming talks
-
-- **July, 2021**. I'll be giving three talks at the Networks 2021 conference: 
-  - [Moments of Uniformly Random Multigraphs With Fixed Degree Sequences](https://epubs.siam.org/doi/pdf/10.1137/19M1288772).
-  - [Generative Hypergraph Clustering: From Blockmodels to Modularity](https://arxiv.org/pdf/2101.09611.pdf).
-  - Title TBD on spectral clustering in heterogeneous hypergraphs. 
 
