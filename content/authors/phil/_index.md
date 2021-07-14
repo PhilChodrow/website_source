@@ -72,12 +72,13 @@ email: ""
 
 I am a Hedrick Visiting Assistant Adjunct Professor in the Department of Mathematics at UCLA, where I am mentored by Mason Porter. My interests include network science, nonlinear dynamics, applied probability, and machine learning. In [my research](/research), I build principled tools for studying the structure and dynamics of complex, networked systems. Recently, I've been thinking about spectral properties of hypergraphs, dominance hierarchies in biosocial systems, and nonlinear opinion dynamics on graphs. 
 
-I am a passionate educator, and [teach subjects](/teaching) ranging from applied probability to network science to technical computing. I am enthusiastic about  evidence-based pedagogy, project-oriented course formats, and inclusion in the classroom. I am also a Partner of [QSIDE](https://qsideinstitute.org/), the Institute for the Quantitative Study of Inclusion, Diversity, and Equity. 
+I am a passionate educator, and [teach subjects](/teaching) ranging from applied probability to network science to technical computing. I am enthusiastic about  evidence-based pedagogy, project-oriented course formats, and inclusion in the classroom. I am a member of the Gold '21 Cohort of [MAA Project NeXT](https://www.maa.org/programs-and-communities/professional-development/project-next). I am also a Partner of [QSIDE](https://qsideinstitute.org/), the Institute for the Quantitative Study of Inclusion, Diversity, and Equity. 
 
 I did my PhD at MIT's [Operations Research Center](https://www.mit.edu/~orc/) under the mentorship of [Marta González](https://ced.berkeley.edu/ced/faculty-staff/marta-gonzalez) and [Patrick Jaillet](http://web.mit.edu/jaillet/www/). My research at MIT was supported by the NSF Graduate Research Fellowship. 
 
 ## News
 
+- **July 15th, 2021**. Invited talk on feedback loops and ranks in networks at UCLA's REU group on "Kaczmarz Methods for Large-Scale Data Analysis," led by [Jamie Haddock](https://www.math.ucla.edu/~jhaddock/). 
 - **June/July, 2021**. I am giving three talks at the Networks 2021 conference: 
   - Detectability of Communities in Heterogeneous Hypergraphs (invited) in the satellite on Higher-Order Models in Network Science (HONS). [Slides](https://philchodrow.github.io/talks/HONS21/short#1). 
   - Generative Hypergraph Clustering: From Blockmodels to Modularity in the satellite on Statistical Inference in Network Models (SINM). [Paper](https://arxiv.org/pdf/2101.09611.pdf), [slides](https://philchodrow.github.io/talks/hmod/short#1). 
