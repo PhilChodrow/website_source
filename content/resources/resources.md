@@ -7,7 +7,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 70  # Order that this section will appear.
 
-title = "Resources for Students"
+title = "Resources"
 subtitle = ""
 
 [content]
@@ -69,79 +69,29 @@ subtitle = ""
  css_class = ""
 +++
 
-{{% toc %}}
-
-## Your Rights as a Student
-
-You are a valued member of our UCLA community. You have the right to learn in an environment free of discrimination, harassment, and violence. You have the right to access care supporting your mental and physical health. You have the right to human dignity and the basic respect of those around you.  
-
-## Getting Help
-
-### Sexual Misconduct
-
-- UCLA's [Sexual Violence Index](https://www.sexualharassment.ucla.edu/Portals/42/Documents/UCLA%20Sexual%20Violence%20Index%20062018.pdf), including definitions, more thorough descriptions of available resources, and suggested safety measures. 
-- [Title IX Office](sexualharassment.ucla.edu).
-- [Office of the Dean of Students](deanofstudents.ucla.edu).
-- [UCLA Police Department (UCPD)](ucpd.ucla.edu)
-
-#### Confidential Resources
-
-- [Campus Assault Resources & Education (CARE)](https://careprogram.ucla.edu/)
-  - Crisis support available 24 hours a day: (310) 206-2465
-- [Counseling and Psychological Services (CAPS)](https://www.counseling.ucla.edu/)
-  - Counselors available by phone 24 hours a day: (310) 825-0768
-- [Rape Treatment Center UCLA Medical Center Santa Monica](https://www.uclahealth.org/santa-monica/rape-treatment)
-  - Support available 24 hours a day: (424) 259-7208
-- [Student Legal Services](https://www.studentlegal.ucla.edu/)
-  - Available Monday-Friday, 9am-12pm and 1pm-5pm
-  - $10 initial consultation fee, **currently waived due to COVID-19.**
-
-### Mental Health
-
-- [Counseling and Psychological Services (CAPS)](https://www.counseling.ucla.edu/)
-  - Counselors available by phone 24 hours a day: (310) 825-0768
-
-### Students with Disabilities
-
-- [Office for Students with Disabilities (OSD)](http://www.osd.ucla.edu)
-  - Provides academic support services for students with documented permanent or temporary disabilities, at no cost to students. Example services include readers, adaptive equipment, sign language interpreters, test-taking arrangements, transportation, and much more. 
-- [UCLA Disabilities and Computing Program (DCP)](http://www.dcp.ucla.edu)
-  - Provides services related to accessible computing technology, including support for students and training for faculty. 
-
-### Equity, Inclusion, and Access
-
-- The [Office of Equity, Diversity, and Inclusion](https://equity.ucla.edu/about-us/) maintains a [list of resources](https://equity.ucla.edu/programs-resources/). Several highlights:
-  - [Resources for Racial Trauma](https://equity.ucla.edu/know/resources-for-racial-trauma/)
-  - [Resources on Immigration Policy Changes](https://equity.ucla.edu/know/immigration/)
-  - [Resources on Native American and Indigenous Affairs](https://equity.ucla.edu/know/resources-on-native-american-and-indigenous-affairs/)
-- The [Community Programs Office](http://www.cpo.ucla.edu/cpo/) offers several student-run programs aimed at the development of an inclusive and diverse community of scholars and leaders on and off campus. 
-  - The [Student Retention Center](http://www.cpo.ucla.edu/src/) offers several programs supporting students who may be experiencing difficulties in their academic or social lives. Specific populations served include students within the Afrikan diaspora, Raza students, Native and Indigenous students, Pilipino students, and Southeast Asian students. 
-
-### International Students
-
-- [Dashew Center for International Students and Scholars](https://www.internationalcenter.ucla.edu/resources/menu) 
-  - [List of resources](https://www.internationalcenter.ucla.edu/resources/resource-guide) related to visas, arrival in the US, housing, and other important topics. 
-
-### Academic Support
-
-- [Student Math Center](https://ccle.ucla.edu/course/view/mathta?section=1)
-  - Serves Math 3BC, 11N, 31B, 32AB, 33AB, 42, and 61.
-- [Math Tutors](https://www.math.ucla.edu/people/tutors), serving a wide variety of courses. 
-- [Undergraduate Writing Center](https://wp.ucla.edu/wc/)
-- [Academic Advancement Program (AAP) Peer Learning](https://www.aap.ucla.edu/units/peer-learning) (serving AAP students)
 
 
-## My Commitments to You
+This pages collects a variety of references, data repositories, and links that I regularly find useful. 
 
-You are always welcome to speak with me about any experience or aspect of your life that may effect your safety, ability to learn, or ability to participate equitably in the UCLA community. 
 
-- I commit to welcoming and celebrating you, as you are. 
-- I commit to making time for you. 
-- I commit to listening to you actively and sympathetically. 
-- I commit to believing you. 
-- I commit to helping you find the resources that best meet your needs. 
-- I commit to respecting your privacy to the extent consistent with my reporting obligations under Title IX (see below). 
+### Network Science
 
-### My Obligations under Title IX
+- [Lectures on Network Systems](http://motion.me.ucsb.edu/book-lns/), a free book by [Francesco Bullo](http://motion.me.ucsb.edu/) at UC Santa Barbara covering a range of important topics related to dynamial systems on networks. The development of the linear algebra toolbox for approaching network problems is clear and of high general utility.   
+- [Aaron Clauset](https://aaronclauset.github.io/) at CU Boulder maintains excellent lecture notes on [Network Analysis and Modeling](https://aaronclauset.github.io/courses/5352/) and [Biological Networks](https://aaronclauset.github.io/courses/3352/). 
 
-I am a Responsible Employee, which means that I am required by the University to report incidents of sexual harassment or sexual violence to the Title IX Coordinator. **If you disclose such an incident to me, I will report it to the Title IX Coordinator.** This may lead to follow-up from the Title IX office and a possible investigation into the incident. If you would like to speak to a resource who will maintain strict confidentiality, see [Confidential Resources](#confidential-resources).
+### Data Sets
+
+- Tidy Tuesday is an initiative organized by the R For Data Science online learning community. Each week, they pose a different data analysis problem in which people can practice their programming and data science skills. The collection of [data sets](https://github.com/rfordatascience/tidytuesday) is particularly nice. 
+- [Austin Benson](https://www.cs.cornell.edu/~arb/) at Cornell hosts [a collection of data sets](https://www.cs.cornell.edu/~arb/data/) for a range of problems related to graphs and hypergraphs. 
+
+### Python Programming
+
+- [Lecture notes and videos](https://philchodrow.github.io/PIC16A/schedule/) from PIC16A, my course on basic Python and core data science skills. 
+- [A Whirlwind Tour of Python](https://jakevdp.github.io/WhirlwindTourOfPython/) by Jake VanderPlas is an excellent, rapid overview of fundamental Python skills. It is suitable for those who have experience in several other programming languages, or for those who previously learned Python and just need a brush-up.  
+- [Lecture notes](https://philchodrow.github.io/PIC16B/schedule/) from PIC16B, my course on advanced computational and data science in Python.  
+- [The Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) by Jake VanderPlas is an excellent and freely-available online resource for practical data science in Python. 
+
+### Math, Data Science, and Social Justice
+
+- I am a Partner at [QSIDE](https://qsideinstitute.org/), the Institute for the Quantitative Study of Inclusion, Diversity, and Equity. QSIDE has a number of ongoing projects and welcomes collaborators. 
+- The 2021 [MSRI Workshop on Mathematics and Racial Justice](https://www.msri.org/workshops/1012) collected a [list of resources](https://docs.google.com/document/d/1-40eCiJdlOIxDWnALv-kqO5-0c5NH1M857-_kTj-GeE/edit?usp=sharing) on mathematics and racial justice, including books, journal articles, organizations, and data sets.

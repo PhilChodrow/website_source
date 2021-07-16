@@ -5,7 +5,7 @@
 widget = "custom"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 2  # Order that this section will appear.
+weight = 5  # Order that this section will appear.
 
 title = "Gender Gap in Computing"
 subtitle = ""
@@ -68,7 +68,7 @@ subtitle = ""
  css_class = ""
 +++
 
-Starting in Winter 2021, I began to measure the effectiveness of my course in narrowing the  [known gender gap](https://www.computerscience.org/resources/women-in-computer-science/#:~:text=According%20to%20the%20American%20Association%20of%20University%20Women%2C%20computer%20science,94%25%20of%20what%20men%20earn.&text=Only%2020%25%20of%20computer%20science%20professionals%20are%20women.) in computing.  Below is a table highlighting some of my findings; click [here](/img/resources/W21-eval.png) for a graph of full results. Percentages indicate the fraction of respondents who **agreed** or **strongly agreed** with the supplied statement. 32 female and 31 male students completed both the Entrance and the Exit surveys. 
+Starting in Winter 2021, I began to measure the effectiveness of PIC16A in narrowing the  [known gender gap](https://www.computerscience.org/resources/women-in-computer-science/#:~:text=According%20to%20the%20American%20Association%20of%20University%20Women%2C%20computer%20science,94%25%20of%20what%20men%20earn.&text=Only%2020%25%20of%20computer%20science%20professionals%20are%20women.) in computing.  Below is a table highlighting some of my findings; click [here](/img/resources/W21-eval.png) for a graph of full results. Percentages indicate the fraction of respondents who **agreed** or **strongly agreed** with the supplied statement. 32 female and 31 male students completed both the Entrance and the Exit surveys. 
 
 | Question | Gender | Entrance | Exit | 
 | -------  |--- |-----|--------| 
